@@ -34,9 +34,9 @@
             <article>
                 <div class="article-wrapper">
                     <ul class="unselected-navItem">
-                        <li><a href="contact/index.html" class="link-tag">Contact</a></li>
-                        <li><a href="blog/index.html" class="link-tag">Blog</a></li>
-                        <li><a href="profile/index.html" class="link-tag">About</a></li>
+                        <li><a href="contact/index.php" class="link-tag">Contact</a></li>
+                        <li><a href="blog/index.php" class="link-tag">Blog</a></li>
+                        <li><a href="profile/index.php" class="link-tag">About</a></li>
                     </ul>
 
                     <h2 class="article-title">Portfolio</h2>
