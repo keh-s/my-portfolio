@@ -48,7 +48,7 @@
                             </div>
                             <div class="swiper-slide portImg-fadeIn" data-target="modal3"><img src="img/dental-img.jpg">
                             </div>
-                            <div class="swiper-slide portImg-fadeIn" data-target="modal4"><img src="img/airbnb-img.jpg">
+                            <div class="swiper-slide portImg-fadeIn" data-target="modal4"><img src="img/isara-img.jpg">
                             </div>
                         </div>
                         <div class="swiper-button-prev"></div>
@@ -70,7 +70,7 @@
                     <img src="img/dental-big-img.jpg" class="pm-img">
                 </div>
                 <div class="port-modal" id="modal4">
-                    <img src="img/airbnb-big-img.jpg" class="pm-img">
+                    <img src="img/isara-img.jpg" class="pm-img">
                 </div>
         </div>
         </article>
