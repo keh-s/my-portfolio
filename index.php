@@ -70,7 +70,7 @@
                     <img src="img/dental-big-img.jpg" class="pm-img">
                 </div>
                 <div class="port-modal" id="modal4">
-                    <img src="img/isara-img.jpg" class="pm-img">
+                    <img src="img/isara-big-img.jpg" class="pm-img">
                 </div>
         </div>
         </article>
