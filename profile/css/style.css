@@ -65,9 +65,10 @@ aside {
 }
 
 .aside-under {
-  width: 100px;
-  height: 200px;
-  margin-left: 50px;
+  width: 200px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 127px;
   background-color: rgb(101, 191, 125, 0.5);
 }
 
@@ -150,7 +151,7 @@ article {
 
 .service-wrapper {
   width: 850px;
-  height: 800px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(101, 191, 125, 0.5);
@@ -159,7 +160,7 @@ article {
 
 .service-box {
   width: 250px;
-  height: 400px;
+  height: 300px;
   border: 1px solid #000;
   text-align: center;
   margin-right: 30px;
