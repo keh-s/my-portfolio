@@ -27,6 +27,7 @@
                 <p class="aside-text">
                     IT転職を目指すプログラミング完全未経験の40代フリーターkehのポートフォリオ集。現在はサイト模写のみですが、1日も早く実案件がご紹介できるよう日々勉強しています。
                 </p>
+                <div class="aside-under"></div>
             </aside>
             <article>
                 <div class="article-wrapper">

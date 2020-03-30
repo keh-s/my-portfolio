@@ -159,7 +159,7 @@ article {
 
 .service-box {
   width: 250px;
-  height: 90px;
+  height: auto;
   border: 1px solid #000;
   text-align: center;
   margin-right: 30px;
