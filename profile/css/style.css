@@ -66,8 +66,8 @@ aside {
 
 .aside-under {
   width: 200px;
-  height: 500px;
-  margin-top: 127px;
+  height: 450px;
+  margin-top: 126px;
   background-color: rgb(101, 191, 125, 0.5);
 }
 
@@ -149,8 +149,8 @@ article {
 /* サービスパート */
 
 .service-wrapper {
-  width: 850px;
-  height: 500px;
+  width: 900px;
+  height: 450px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(101, 191, 125, 0.5);
@@ -158,7 +158,7 @@ article {
 }
 
 .service-box {
-  width: 250px;
+  width: 270px;
   height: 300px;
   border: 1px solid #000;
   text-align: center;
@@ -171,7 +171,7 @@ article {
 }
 
 .service-txt {
-  width: 230px;
+  width: 240px;
 }
 
 /* -----------------ロゴ---------------- */
