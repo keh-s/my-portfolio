@@ -140,7 +140,7 @@ article {
 }
 
 .service-wrapper {
-  height: 600px;
+  height: 350px;
   display: flex;
   background-color: rgb(101, 191, 125, 0.5);
 }
@@ -156,7 +156,7 @@ article {
 }
 
 .service-txt {
-  width: 250px;
+  width: 230px;
 }
 
 /* -----------------ロゴ---------------- */
