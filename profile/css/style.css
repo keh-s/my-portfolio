@@ -64,6 +64,13 @@ aside {
   color: rgb(51, 51, 51);
 }
 
+.aside-under {
+  width: 100px;
+  height: 250px;
+  margin-left: 100px;
+  background-color: rgb(101, 191, 125, 0.5);
+}
+
 /*----------------------アーティクルパート-------------------*/
 
 article {
@@ -139,9 +146,11 @@ article {
   color: rgb(51, 51, 51);
 }
 
+/* サービスパート */
+
 .service-wrapper {
-  width: 800px;
-  height: 350px;
+  width: 850px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(101, 191, 125, 0.5);
@@ -154,6 +163,7 @@ article {
   border: 1px solid #000;
   text-align: center;
   margin-right: 30px;
+  margin-top: 50px;
 }
 
 .service-ttl {
