@@ -139,6 +139,26 @@ article {
   color: rgb(51, 51, 51);
 }
 
+.service-wrapper {
+  height: 600px;
+  display: flex;
+  background-color: rgb(101, 191, 125, 0.5);
+}
+
+.service-box {
+  width: 250px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.service-ttl {
+  font-weight: bolder;
+}
+
+.service-txt {
+  width: 250px;
+}
+
 /* -----------------ロゴ---------------- */
 /* .img-text {
   font-family: Changa One, cursive;
