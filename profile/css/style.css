@@ -140,15 +140,20 @@ article {
 }
 
 .service-wrapper {
+  width: 800px;
   height: 350px;
   display: flex;
+  justify-content: space-between;
   background-color: rgb(101, 191, 125, 0.5);
+  padding-top: 40px;
 }
 
 .service-box {
   width: 250px;
+  height: 90px;
   border: 1px solid #000;
   text-align: center;
+  margin-right: 30px;
 }
 
 .service-ttl {
