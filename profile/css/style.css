@@ -51,7 +51,7 @@ aside {
   color: #fff;
   padding: 10px;
   /* border: 1px 0; */
-  background-color: rgb(101, 191, 125, 0.5);
+  background-color: rgb(101, 191, 125, 0.3);
   width: 200px;
   letter-spacing: 2px;
 }
@@ -66,9 +66,9 @@ aside {
 
 .aside-under {
   width: 200px;
-  height: 450px;
+  height: 560px;
   margin-top: 126px;
-  background-color: rgb(101, 191, 125, 0.5);
+  background-color: rgb(101, 191, 125, 0.3);
 }
 
 /*----------------------アーティクルパート-------------------*/
@@ -80,7 +80,7 @@ article {
 }
 
 .article-wrapper {
-  background-color: rgba(204, 255, 204, 0.55);
+  background-color: rgba(204, 255, 204, 0.3);
   width: 1116px;
   height: 507px;
   padding-top: 40px;
@@ -93,7 +93,7 @@ article {
 .unselected-navItem li {
   list-style-type: none;
   font-size: 1.6rem;
-  background-color: rgb(101, 191, 125, 0.5);
+  background-color: rgb(101, 191, 125, 0.3);
   width: 140px;
   padding: 16px 24px;
   letter-spacing: 3px;
@@ -107,7 +107,7 @@ article {
 }
 
 .link-tag:link {
-  color: rgb(101, 191, 125, 0.5);
+  color: rgb(101, 191, 125, 0.3);
 }
 
 .link-tag:hover {
@@ -159,7 +159,7 @@ article {
 
 .service-box {
   width: 270px;
-  height: 300px;
+  height: 370px;
   border: 1px solid #000;
   text-align: center;
   margin-right: 30px;
