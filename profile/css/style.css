@@ -166,6 +166,11 @@ article {
   margin-top: 50px;
 }
 
+.service-img {
+  width: 240px;
+  height: auto;
+}
+
 .service-ttl {
   font-weight: bolder;
 }
