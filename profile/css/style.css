@@ -169,7 +169,7 @@ article {
 .service-img {
   width: 200px;
   height: auto;
-  z-index: 0;
+  z-index: -1;
 }
 
 .service-ttl {
