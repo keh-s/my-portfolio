@@ -18,24 +18,25 @@
 
 <body>
     <div class="container">
-        <header>
-            <h1 class="main-title">keh's Design</h1>
+    <header>
+            <h1 class="main-ttl">keh's Design</h1>
         </header>
         <div class="main-part-wrapper">
             <aside>
-                <h2 class="selected-navItem">Contact</h2>
                 <p class="aside-text">
                     このサイトに関するご意見、お問い合わせ、web制作のご依頼等はこちらのフォームからご連絡ください。
                 </p>
             </aside>
             <article>
                 <div class="article-wrapper">
-                    <ul class="unselected-navItem">
-                        <li><a href="../blog/index.php" class="link-tag">Blog</a></li>
-                        <li><a href="../profile/index.php" class="link-tag">About</a></li>
-                        <li><a href="../index.php" class="link-tag">Portfolio</a></li>
+                    <ul class="main-nav-wrapper">
+                    <li class="navItem selected-nI">Contact</li>
+                        <li class="navItem unselected-nI"><a href="../blog/index.php" class="link-tag">Blog</a></li>
+                        <li class="navItem unselected-nI"><a href="../profile/index.php" class="link-tag">About</a></li>
+                        <li class="navItem unselected-nI"><a href="../index.php" class="link-tag">Portfolio</a></li>
                     </ul>
-                    <h2 class="article-title">Contact</h2>
+
+                    <h2 class="article-ttl">Contact</h2>
 
                     <form>
                         <div class="contact-wrapper">

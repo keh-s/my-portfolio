@@ -22,12 +22,13 @@ body {
 }
 
 .container {
-  margin-left: 48px;
+  margin: 0 72px;
 }
 
-.main-title {
+.main-ttl {
   font-family: "Exo 2", sans-serif;
-  font-size: 5rem;
+  font-size: 6rem;
+  letter-spacing: -1.2px;
   color: rgb(120, 245, 141);
   padding-top: 20px;
   height: 19%;
@@ -46,29 +47,12 @@ aside {
   padding-top: 40px;
 }
 
-.selected-navItem {
-  font-size: 2.4rem;
-  color: #fff;
-  padding: 10px;
-  /* border: 1px 0; */
-  background-color: rgb(101, 191, 125, 0.3);
-  width: 200px;
-  letter-spacing: 2px;
-}
-
 .aside-text {
-  width: 140px;
+  width: 150px;
   text-align: justify;
-  margin: 40px auto 0 auto;
+  margin: 100px auto 0 auto;
   font-size: 1.4rem;
   color: rgb(51, 51, 51);
-}
-
-.aside-under {
-  width: 200px;
-  height: 560px;
-  margin-top: 126px;
-  background-color: rgb(101, 191, 125, 0.3);
 }
 
 /*----------------------アーティクルパート-------------------*/
@@ -80,24 +64,43 @@ article {
 }
 
 .article-wrapper {
-  background-color: rgba(204, 255, 204, 0.3);
-  width: 1116px;
-  height: 507px;
+  background-color: rgba(204, 255, 204, 0.55);
+  width: 100%;
+  height: 440px;
   padding-top: 40px;
+  margin-left: 20px;
+  margin-right: 30px;
+  position: relative;
 }
 
-.unselected-navItem {
+.main-nav-wrapper {
   display: flex;
+  position: absolute;
+  top: 40px;
+  left: -190px;
 }
 
-.unselected-navItem li {
+.navItem {
   list-style-type: none;
-  font-size: 1.6rem;
   background-color: rgb(101, 191, 125, 0.3);
+  text-align: center;
+}
+
+.selected-nI {
+  font-family: 游ゴシック体;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+  width: 190px;
+  letter-spacing: 1px;
+}
+
+.unselected-nI {
+  font-size: 1.6rem;
   width: 140px;
   padding: 16px 24px;
   letter-spacing: 3px;
-  text-align: center;
 }
 
 .link-tag {
@@ -115,21 +118,12 @@ article {
   transition: 0.6s;
 }
 
-.article-title {
-  font-family: 游ゴシック体;
-  font-size: 3rem;
-  margin-top: 40px;
-  margin-left: 64px;
-  color: #fff;
-  letter-spacing: 2.5px;
-}
-
 /*------------About（プロフィールパート）---------------*/
 
 .about-wrapper {
   display: flex;
   align-items: flex-start;
-  margin: 50px;
+  margin: 100px 50px 50px 50px;
 }
 
 .profile-img {
@@ -149,27 +143,51 @@ article {
 /* サービスパート */
 
 .service-wrapper {
-  width: 900px;
-  height: 560px;
+  width: 940px;
+  height: 520px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgb(101, 191, 125, 0.3);
   padding-top: 40px;
+  position: absolute;
+  top: 380px;
+  left: 130px;
 }
 
 .service-box {
   width: 270px;
   height: 370px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  /* background-color: rgb(101, 191, 125, 0.3); */
   text-align: center;
-  margin-right: 30px;
   margin-top: 50px;
+  background-color: #fff;
+  opacity: 1;
+  position: relative;
+  /* display: none; */
 }
 
 .service-img {
   width: 200px;
   height: auto;
-  z-index: -1;
+}
+
+.comprehend-img {
+  margin-top: 20px;
+}
+
+.comprehend-ttl {
+  margin-top: 5px;
+}
+
+.support-img {
+  width: 50%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.support-ttl {
+  margin-top: 25px;
 }
 
 .service-ttl {
@@ -178,6 +196,8 @@ article {
 
 .service-txt {
   width: 240px;
+  margin-top: 10px;
+  margin: 10px auto 0;
 }
 
 /* -----------------ロゴ---------------- */

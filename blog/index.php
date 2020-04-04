@@ -18,24 +18,23 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="main-title">keh's Design</h1>
+            <h1 class="main-ttl">keh's Design</h1>
         </header>
         <div class="main-part-wrapper">
             <aside>
-                <h2 class="selected-navItem">Blog</h2>
                 <p class="aside-text">
-                    IT転職を目指すプログラミング完全未経験の40代フリーターkehのポートフォリオ集。現在はサイト模写のみですが、1日も早く実案件がご紹介できるよう日々勉強しています。
+                IT転職を目指すプログラミング完全未経験の40代フリーターkehのポートフォリオサイトです。現在はサイト模写のみですが、1日も早く実案件の実績がご紹介できるよう日々精進しております。
                 </p>
             </aside>
             <article>
                 <div class="article-wrapper">
-                    <ul class="unselected-navItem">
-                        <li><a href="../profile/index.php" class="link-tag">About</a></li>
-                        <li><a href="../index.php" class="link-tag">Portfolio</a></li>
-                        <li><a href="../contact/index.php" class="link-tag">Contact</a></li>
+                    <ul class="main-nav-wrapper">
+                    <li class="navItem selected-nI">Blog</a></li>
+                    <li class="navItem unselected-nI"><a href="../profile/index.php" class="link-tag">About</a></li>
+                        <li class="navItem unselected-nI"><a href="../index.php" class="link-tag">Portfolio</a></li>
+                        <li class="navItem unselected-nI"><a href="../contact/index.php" class="link-tag">Contact</a></li>
                     </ul>
 
-                    <h2 class="article-title">Blog</h2>
                     <div class="blog-article-wrapper">
                         <a href="" class="blog-link">
                             <div class="blog-article-box">
