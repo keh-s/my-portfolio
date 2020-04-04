@@ -44,29 +44,31 @@
                         </div>
                     </div>
                     <div class="service-wrapper">
-                    <!-- <div class="service-box-bg"> -->
+                        <p class="service-ttl">Service</p>
+                        <div class="service-box-wrapper">
                      <div class="service-box">
                         <img src="img/pc-image.jpg" class="service-img">
-                        <p class="service-ttl">分かりやすいデザイン<br>
+                        <p class="sb-ttl">分かりやすいデザイン<br>
 あたらしいデザイン</p>
-                        <p class="service-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
+                        <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
 <!-- </div> -->
 </div>
                     <div class="service-box">
                         <p class="service-img-bg">
                         <img src="img/comprehensible-img.jpg" class="service-img comprehend-img">
 </p>
-                        <p class="service-ttl comprehend-ttl">丁寧で分かりやすい説明</p>
-                         <p class="service-txt">細やかな配慮や柔軟な対応で円滑に制作を進めます。納期やお見積りご相談ください。</p>
+                        <p class="sb-ttl comprehend-ttl">丁寧で分かりやすい説明</p>
+                         <p class="sb-txt">細やかな配慮や柔軟な対応で円滑に制作を進めます。納期やお見積りご相談ください。</p>
 </div>
                     <div class="service-box">
                     <p class="service-img-bg">
                         <img src="img/support-image.jpg" class="service-img support-img">
 </p>
-                        <p class="service-ttl support-ttl">納品後も
+                        <p class="sb-ttl support-ttl">納品後も
 あんしんサポート</p>
-                        <p class="service-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                        <p class="sb-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
                     </div>
+</div>
                     </div>
                     <!-- <p class="img-text">Keh's<br> Design</p> -->
                 </div>
