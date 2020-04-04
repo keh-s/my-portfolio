@@ -144,14 +144,26 @@ article {
 
 .service-wrapper {
   width: 940px;
-  height: 520px;
-  display: flex;
-  justify-content: space-around;
+  height: 560px;
   background-color: rgb(101, 191, 125, 0.3);
-  padding-top: 40px;
   position: absolute;
   top: 380px;
   left: 130px;
+}
+
+.service-ttl {
+  font-family: 游ゴシック体;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-left: 22px;
+}
+
+.service-box-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
 .service-box {
@@ -160,9 +172,9 @@ article {
   /* border: 1px solid #000; */
   /* background-color: rgb(101, 191, 125, 0.3); */
   text-align: center;
-  margin-top: 50px;
   background-color: #fff;
   opacity: 1;
+  margin-top: 40px;
   position: relative;
   /* display: none; */
 }
@@ -190,11 +202,11 @@ article {
   margin-top: 25px;
 }
 
-.service-ttl {
+.sb-ttl {
   font-weight: bolder;
 }
 
-.service-txt {
+.sb-txt {
   width: 240px;
   margin-top: 10px;
   margin: 10px auto 0;
