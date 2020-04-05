@@ -39,6 +39,17 @@ body {
   margin-top: 35px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-part-wrapper {
+    /* flex-direction: column; */
+    margin-top: 35px;
+  }
+}
+
 /*--------------------アサイドパート------------------*/
 
 aside {
@@ -52,6 +63,19 @@ aside {
   margin: 100px auto 0 auto;
   font-size: 1.4rem;
   color: rgb(51, 51, 51);
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    padding-top: 20px;
+  }
+
+  .aside-text {
+    width: 624px;
+    margin: 10px auto 0 auto;
+    font-size: 2.4rem;
+    display: none;
+  }
 }
 
 /*----------------------アーティクルパート-------------------*/
@@ -126,6 +150,34 @@ article {
   letter-spacing: 2.5px;
 }
 
+@media screen and (max-width: 768px) {
+  .article-wrapper {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .main-nav-wrapper {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: -25px;
+  }
+
+  .unselected-nI {
+    font-size: 1.6rem;
+    width: 180px;
+    padding: 16px 24px;
+    letter-spacing: 3px;
+  }
+}
+
+/* ---------------ブログパート---------------- */
 .blog-article-wrapper {
   display: flex;
   justify-content: space-around;
@@ -165,6 +217,24 @@ article {
   display: block;
   margin-top: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .blog-article-wrapper {
+   flex-wrap:wrap;
+   justify-content:left;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .blog-article-box{
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:30px;
+  }
+  
+
+
 
 .portfolio-images {
   display: flex;
