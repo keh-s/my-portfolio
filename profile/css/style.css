@@ -130,6 +130,7 @@ article {
   width: 158px;
   height: 158px;
   margin-left: 40px;
+  box-shadow: 0 0 8px gray;
 }
 
 .profile-text p {
@@ -142,16 +143,16 @@ article {
 
 /* サービスパート */
 
-.service-wrapper {
-  width: 940px;
-  height: 560px;
+.career-wrapper {
+  width: 860px;
+  height: 480px;
   background-color: rgb(101, 191, 125, 0.3);
   position: absolute;
   top: 380px;
   left: 130px;
 }
 
-.service-ttl {
+.career-ttl {
   font-family: 游ゴシック体;
   font-size: 2.4rem;
   font-weight: 600;
@@ -159,6 +160,49 @@ article {
   letter-spacing: 1px;
   line-height: 60px;
   margin-left: 22px;
+}
+
+.career-list-wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cl-left-li {
+  list-style-type: none;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.cl-left-blank {
+  list-style-type: none;
+  margin-left: 100px;
+  margin-top: 64px;
+}
+
+.cl-right li {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/* -----------経歴パート--------------- */
+.service-wrapper {
+  width: 940px;
+  height: 560px;
+  background-color: rgba(204, 255, 204, 0.55);
+  position: absolute;
+  top: 800px;
+  left: -50px;
+}
+
+.service-ttl {
+  font-family: 游ゴシック体;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-left: 32px;
 }
 
 .service-box-wrapper {
@@ -176,6 +220,7 @@ article {
   opacity: 1;
   margin-top: 40px;
   position: relative;
+  box-shadow: 0 0 8px gray;
   /* display: none; */
 }
 
@@ -211,18 +256,6 @@ article {
   margin-top: 10px;
   margin: 10px auto 0;
 }
-
-/* -----------経歴パート--------------- */
-.career-wrapper{
-  width: 940px;
-  height: 560px;
-  background-color: rgb(101, 191, 125, 0.3);
-  position: absolute;
-  top: 380px;
-  left: 130px;
-}
-
-
 
 /* -----------------ロゴ---------------- */
 /* .img-text {
