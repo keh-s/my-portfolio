@@ -212,6 +212,18 @@ article {
   margin: 10px auto 0;
 }
 
+/* -----------経歴パート--------------- */
+.career-wrapper{
+  width: 940px;
+  height: 560px;
+  background-color: rgb(101, 191, 125, 0.3);
+  position: absolute;
+  top: 380px;
+  left: 130px;
+}
+
+
+
 /* -----------------ロゴ---------------- */
 /* .img-text {
   font-family: Changa One, cursive;

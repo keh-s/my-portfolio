@@ -46,31 +46,39 @@
                     <div class="service-wrapper">
                         <p class="service-ttl">Service</p>
                         <div class="service-box-wrapper">
-                     <div class="service-box">
-                        <img src="img/pc-image.jpg" class="service-img">
-                        <p class="sb-ttl">分かりやすいデザイン<br>
-あたらしいデザイン</p>
-                        <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
-<!-- </div> -->
-</div>
-                    <div class="service-box">
-                        <p class="service-img-bg">
-                        <img src="img/comprehensible-img.jpg" class="service-img comprehend-img">
-</p>
-                        <p class="sb-ttl comprehend-ttl">丁寧で分かりやすい説明</p>
-                         <p class="sb-txt">細やかな配慮や柔軟な対応で円滑に制作を進めます。納期やお見積りご相談ください。</p>
-</div>
-                    <div class="service-box">
-                    <p class="service-img-bg">
-                        <img src="img/support-image.jpg" class="service-img support-img">
-</p>
-                        <p class="sb-ttl support-ttl">納品後も
-あんしんサポート</p>
-                        <p class="sb-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                            <div class="service-box">
+                                <img src="img/pc-image.jpg" class="service-img">
+                                <p class="sb-ttl">分かりやすいデザイン<br>あたらしいデザイン</p>
+                                <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
+                            </div>
+                            <div class="service-box">
+                                <p class="service-img-bg">
+                                <img src="img/comprehensible-img.jpg" class="service-img comprehend-img"></p>
+                                <p class="sb-ttl comprehend-ttl">丁寧で分かりやすい説明</p>
+                                <p class="sb-txt">細やかな配慮や柔軟な対応で円滑に制作を進めます。納期やお見積りご相談ください。</p>
+                            </div>
+                            <div class="service-box">
+                                <p class="service-img-bg">
+                                <img src="img/support-image.jpg" class="service-img support-img"></p>
+                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>
+                                <p class="sb-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                            </div>
+                        </div>
                     </div>
-</div>
+                    <div class="career-wrapper">
+                        <p class="career-ttl">Career</p>
+                        <div class="career-txt-wrapper">
+                            <ul>
+                                <li>2002年 4年制大学 英語学科卒業</li>
+                                <li>2004年 郵政公社に入社</li>
+                                <li class="career-txt">郵便局窓口で、郵便、貯金、保険の業務に携わる</li>
+                                <li>2005年 同社を退社し、地元市役所に入庁。</li>
+                                <li>2019年 同市役所を退職</li>
+                                <li class="career-txt">14年の間に統計調査、区画整理、公営住宅管理、地籍調査、徴税と多岐に渡る業務に携わる</li>
+                                <li>2020年 IT業界への転職活動中</li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- <p class="img-text">Keh's<br> Design</p> -->
                 </div>
             </article>
         </div>
