@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>keh's Design</title>
-    <meta name="description" content="keh's Dsignのポートフォリオサイト">
+    <meta name="description" content="keh's Designのポートフォリオサイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="slick-theme.css" type="text/css">
     <link rel="stylesheet" href="slick.css" type="text/css">
@@ -58,19 +59,20 @@
                                 <li>郵政公社に入社</li>
                                 <li>郵便局窓口で、郵便、貯金、保険の業務に従事</li>
                                 <li>同社を退社し、地方自治体に就職</li>
-                                <li>国勢調査、区画整理事業、公営住宅管理、徴税と多岐に渡る業務に従事</li>
+                                <li>国勢調査、区画整理事業、徴税などの業務に従事</li>
                                 <li>同自治体を退職し、フリーターに</li>
-                                <li>Web制作を請負いながら、IT業界への転職活動中</li>
+                                <li>フリーターの傍ら、Web制作を請負いながら、IT業界への転職活動中</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="service-wrapper">
-                        <p class="service-ttl">Service</p>
-                        <div class="service-box-wrapper">
-                            <div class="service-box">
-                                <img src="img/pc-image.jpg" class="service-img">
-                                <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
-                                <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
+                    <div class="service-position">
+                        <div class="service-wrapper">
+                           <p class="service-ttl">Service</p>
+                          <div class="service-box-wrapper">
+                             <div class="service-box">
+                                    <img src="img/pc-image.jpg" class="service-img">
+                                    <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
+                                    <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">

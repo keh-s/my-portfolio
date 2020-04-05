@@ -2,7 +2,7 @@
 
 /*-------------------共通仕様-------------------*/
 html {
-  font-size: 65%;
+  font-size: 62.5%;
   box-sizing: content-box;
 }
 
@@ -40,6 +40,17 @@ body {
   margin-top: 35px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    text-align:center;
+  }
+  .main-part-wrapper {
+    /* flex-direction: column; */
+    margin-top: 35px;
+  }
+}
+
 /*--------------------アサイドパート------------------*/
 
 aside {
@@ -53,6 +64,19 @@ aside {
   margin: 100px auto 0 auto;
   font-size: 1.4rem;
   color: rgb(51, 51, 51);
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    padding-top: 20px;
+  }
+
+  .aside-text {
+    width: 624px;
+    margin: 10px auto 0 auto;
+    font-size: 2.4rem;
+    display:none;
+  }
 }
 
 /*----------------------アーティクルパート-------------------*/
@@ -118,6 +142,33 @@ article {
   transition: 0.6s;
 }
 
+@media screen and (max-width: 768px) {
+  .article-wrapper {
+    width: 100%;
+    height:auto;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .main-nav-wrapper {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: -25px;
+  }
+
+  .unselected-nI {
+    font-size: 1.6rem;
+    width: 180px;
+    padding: 16px 24px;
+    letter-spacing: 3px;
+  }
+}
+
 /*------------About（プロフィールパート）---------------*/
 
 .about-wrapper {
@@ -141,7 +192,24 @@ article {
   color: rgb(51, 51, 51);
 }
 
-/* サービスパート */
+@media screen and (max-width: 768px) {
+  .about-wrapper {
+    height:auto;
+    margin: 140px 50px 50px 50px;
+  }
+
+  .profile-img {
+    margin-left: 0;
+  }
+  .profile-text p {
+    width: 94%;
+    margin-left: 40px;
+    letter-spacing: 1.7px;
+    color: rgb(51, 51, 51);
+  }
+}
+
+/* 経歴パート */
 
 .career-wrapper {
   width: 860px;
@@ -185,13 +253,30 @@ article {
   margin-top: 20px;
 }
 
-/* -----------経歴パート--------------- */
+@media screen and (max-width: 768px) {
+  .career-wrapper {
+    width: 730px;
+    height: 480px;
+    background-color: rgb(101, 191, 125, 0.3);
+    position: absolute;
+    top: auto;
+    left: -25px;
+  }
+}
+
+/* -----------サービスパート--------------- */
+
+.service-position{
+  height:100%;
+  position:relative;
+}
+
 .service-wrapper {
   width: 940px;
   height: 560px;
   background-color: rgba(204, 255, 204, 0.55);
   position: absolute;
-  top: 800px;
+  top: 450px;
   left: -50px;
 }
 
@@ -256,6 +341,37 @@ article {
   margin-top: 10px;
   margin: 10px auto 0;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .service-wrapper {
+    width: 624px;
+    height: auto;
+    padding-bottom: 30px;
+    position: absolute;
+    margin-top:410px;
+    top: auto;
+    left: 30px;
+  }
+
+  .service-box-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service-box {
+    width: 420px;
+    height: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    /* display: none; */
+  }
+
+  .sb-txt {
+    width: 340px;
+  }
 
 /* -----------------ロゴ---------------- */
 /* .img-text {
