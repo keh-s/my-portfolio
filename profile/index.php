@@ -51,8 +51,8 @@
                             <ul class="cl-left">
                                 <li class="cl-left-li">2002年</li>
                                 <li class="cl-left-li">2003年</li>
-                                <li class="cl-left-blank">2004年</li>
-                                <li class="cl-left-blank">2019年</li>
+                                <li class="cl-left-blank2003">2004年</li>
+                                <li class="cl-left-blank2004">2019年</li>
                                 <li class="cl-left-li">現在</li>
                             </ul>
                             <ul class="cl-right">
@@ -66,7 +66,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="service-position">
+                    <!-- <div class="service-position"> -->
                         <div class="service-wrapper">
                            <p class="service-ttl">Service</p>
                           <div class="service-box-wrapper">
@@ -88,7 +88,7 @@
                                 <p class="sb-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
                             </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
             </article>
         </div>
     </div>
