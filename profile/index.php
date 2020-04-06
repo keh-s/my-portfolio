@@ -44,6 +44,7 @@
                             </p>
                         </div>
                     </div>
+</div>
                     <div class="career-wrapper">
                         <p class="career-ttl">Career</p>
                         <div class="career-list-wrapper">
@@ -88,7 +89,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </article>
         </div>
     </div>
