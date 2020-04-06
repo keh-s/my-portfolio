@@ -46,7 +46,7 @@
                     </div>
 </div>
                     <div class="career-wrapper">
-                        <p class="career-ttl">Career</p>
+                        <p class="career-ttl">Career<p>
                         <div class="career-list-wrapper">
                             <ul class="cl-left">
                                 <li class="cl-left-li">2002年</li>

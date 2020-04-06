@@ -151,8 +151,6 @@ article {
 
   .main-nav-wrapper {
     display: flex;
-    position: absolute;
-    top: 40px;
     left: -25px;
   }
 
@@ -172,18 +170,30 @@ article {
 }
 
 @media screen and (max-width: 760px) {
+  .article-wrapper {
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+  }
+
+  .main-nav-wrapper {
+    flex-wrap: wrap;
+  }
+
   h1 {
     text-align: center;
   }
 
   .selected-nI {
-    font-size: 2.4rem;
+    font-size: 2rem;
     width: 140px;
     padding-left: 24px;
   }
 
   .unselected-nI {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     width: 110px;
     padding: 16px 24px;
     letter-spacing: 3px;
@@ -222,6 +232,7 @@ article {
   .profile-img {
     margin-left: 0;
   }
+
   .profile-text p {
     width: 80%;
     margin-left: 40px;
@@ -237,12 +248,15 @@ article {
   }
 
   .profile-text p {
-    margin-top: 25px;
-    letter-spacing: 1.7px;
+    width: 90%;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .profile-img {
     margin-left: 40px;
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -310,6 +324,38 @@ article {
 
   .cl-right li {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .career-wrapper {
+    width: auto;
+    position: absolute;
+    top: 88%;
+    left: -25px;
+  }
+
+  .cl-left-li {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-right: 0;
+    font-size: 1.5rem;
+  }
+
+  .cl-left-blank2003,
+  .cl-left-blank2004 {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 64px;
+  }
+
+  .cl-right li {
+    width: 196px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 1.5rem;
   }
 }
 
@@ -435,7 +481,7 @@ article {
 
 @media screen and (max-width: 760px) {
   .service-wrapper {
-    width: 640px;
+    width: 340px;
     height: auto;
     padding-bottom: 30px;
     position: absolute;
@@ -443,6 +489,24 @@ article {
     top: auto;
     left: 50%;
     transform: translate(-50%);
+  }
+
+  .service-box-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    width: 280px;
+    height: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    /* display: none; */
+  }
+
+  .sb-txt {
+    width: 240px;
   }
 }
 
