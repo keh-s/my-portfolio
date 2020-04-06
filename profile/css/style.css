@@ -156,6 +156,13 @@ article {
     left: -25px;
   }
 
+  .selected-nI {
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 10px;
+    width: 190px;
+  }
+
   .unselected-nI {
     font-size: 1.6rem;
     width: 180px;
@@ -167,6 +174,19 @@ article {
 @media screen and (max-width: 760px) {
   h1 {
     text-align: center;
+  }
+
+  .selected-nI {
+    font-size: 2.4rem;
+    width: 140px;
+    padding-left: 24px;
+  }
+
+  .unselected-nI {
+    font-size: 1.6rem;
+    width: 110px;
+    padding: 16px 24px;
+    letter-spacing: 3px;
   }
 }
 
