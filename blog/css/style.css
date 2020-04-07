@@ -30,7 +30,7 @@ body {
   font-size: 6rem;
   color: rgb(120, 245, 141);
   padding-top: 20px;
-  width:460px;
+  width: 460px;
   height: 19%;
 }
 
@@ -48,16 +48,15 @@ body {
 
   .main-ttl {
     padding-top: 24px;
-    width:320px;
+    width: 320px;
     text-align: center;
-    font-size:4rem;
+    font-size: 4rem;
   }
 
   .main-part-wrapper {
     /* flex-direction: column; */
     margin-top: 35px;
   }
-
 }
 
 /*--------------------アサイドパート------------------*/
@@ -160,26 +159,26 @@ article {
     padding-top: 10px;
     padding-bottom: 45px;
     margin-right: 0;
-    margin-left: 6%;   /*左側の余白分*/
+    margin-left: 6%; /*左側の余白分*/
   }
 
   .main-nav-wrapper {
-    flex-wrap:wrap; 
+    flex-wrap: wrap;
     position: absolute;
     top: 40px;
     left: -40px;
   }
 
-.selected-nI {
-  font-size: 2rem;
-  width: 140px;
-  padding-left: 24px;
-}
+  .selected-nI {
+    font-size: 2rem;
+    width: 140px;
+    padding-left: 24px;
+  }
 
-.unselected-nI {
-  font-size: 1.2rem;
-  width: 110px;
-}
+  .unselected-nI {
+    font-size: 1.2rem;
+    width: 110px;
+  }
 }
 
 /* ---------------ブログパート---------------- */
@@ -225,18 +224,18 @@ article {
 
 @media screen and (max-width: 768px) {
   .blog-article-wrapper {
-   flex-wrap:wrap-reverse;  /*ナビゲーションの逆折り返し*/
-   justify-content:left;
-    width: 80%;   /*280pxの80%=224pxで設定*/
+    flex-wrap: wrap-reverse; /*ナビゲーションの逆折り返し*/
+    justify-content: left;
+    width: 80%; /*280pxの80%=224pxで設定*/
     margin-top: 140px;
     margin-left: 45px;
   }
 
-  .blog-article-box{
-    margin-top:40px;
-    margin-left:8px;
+  .blog-article-box {
+    margin-top: 40px;
+    margin-left: 8px;
   }
-  
+
   .blog-article-box img {
     width: 170px;
     height: auto;
@@ -247,6 +246,7 @@ article {
     height: 72px;
     margin-top: 8px;
   }
+}
 
 .portfolio-images {
   display: flex;
@@ -274,4 +274,3 @@ article {
 .portfolio-images li:first-child {
   margin-left: 104px;
 }
-
