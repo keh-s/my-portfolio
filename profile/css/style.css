@@ -99,7 +99,7 @@ article {
   display: flex;
   position: absolute;
   top: 40px;
-  left: -190px;
+  left: -190px; /* ???  */
 }
 
 .navItem {
@@ -335,6 +335,10 @@ article {
     left: -25px;
   }
 
+  .career-ttl {
+    padding-left: 88px;
+  }
+
   .cl-left-li {
     width: 60px;
     margin-left: 50px;
@@ -481,10 +485,7 @@ article {
 
 @media screen and (max-width: 760px) {
   .service-wrapper {
-    width: 340px;
-    height: auto;
-    padding-bottom: 30px;
-    position: absolute;
+    width: 92%;
     margin-top: 465px;
     top: auto;
     left: 50%;
@@ -497,16 +498,28 @@ article {
   }
 
   .service-box {
-    width: 280px;
+    width: 240px;
     height: auto;
-    margin-top: 40px;
+    margin: 40px 20px 0;
     padding-bottom: 30px;
     position: relative;
-    /* display: none; */
+  }
+
+  .comprehend-img {
+    width: 60%;
+  }
+
+  .service-img {
+    width: 50%;
+  }
+
+  .support-img {
+    width: 40%;
   }
 
   .sb-txt {
-    width: 240px;
+    width: 200px;
+    font-size: 1.5rem;
   }
 }
 

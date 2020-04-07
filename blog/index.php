@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>keh's Design</title>
     <meta name="description" content="keh's Dsignのポートフォリオサイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="slick-theme.css" type="text/css">
     <link rel="stylesheet" href="slick.css" type="text/css">
