@@ -2,7 +2,7 @@
 
 /*-------------------共通仕様-------------------*/
 html {
-  font-size: 65%;
+  font-size: 62.5%;
   box-sizing: content-box;
 }
 
@@ -47,9 +47,10 @@ body {
   }
 
   .main-ttl {
-    padding-top: 10px;
+    padding-top: 24px;
     width:320px;
     text-align: center;
+    font-size:4rem;
   }
 
   .main-part-wrapper {
@@ -154,31 +155,31 @@ article {
 
 @media screen and (max-width: 768px) {
   .article-wrapper {
-    width: 100%;
+    width: 94%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 45px;
     margin-right: 0;
-    margin-left: 10%;
+    margin-left: 6%;   /*左側の余白分*/
   }
 
   .main-nav-wrapper {
-    flex-wrap: wrap;
+    flex-wrap:wrap; 
     position: absolute;
     top: 40px;
     left: -40px;
   }
 
-.selected-nI{
-
+.selected-nI {
+  font-size: 2rem;
+  width: 140px;
+  padding-left: 24px;
 }
 
-  .unselected-nI {
-    font-size: 1.6rem;
-    width: 140px;
-    padding: 16px 24px;
-    letter-spacing: 3px;
-  }
+.unselected-nI {
+  font-size: 1.2rem;
+  width: 110px;
+}
 }
 
 /* ---------------ブログパート---------------- */
@@ -224,17 +225,16 @@ article {
 
 @media screen and (max-width: 768px) {
   .blog-article-wrapper {
-   flex-wrap:wrap;
-   justify-content:left;
-    width: 100%;
-    margin-top: 170px;
+   flex-wrap:wrap-reverse;  /*ナビゲーションの逆折り返し*/
+   justify-content:center;
+    width: 80%;   /*280pxの80%=224pxで設定*/
+    margin-top: 80px;
     margin-left: 45px;
   }
 
   .blog-article-box{
-    margin-left:15px;
-    margin-right:15px;
-    margin-top:30px;
+    margin-top:40px;
+    margin-left:30px;
   }
   
   .blog-article-box img {
@@ -243,7 +243,7 @@ article {
   }
 
   .bab-text {
-    width: 170px;
+    width: 190px;
     height: 72px;
     margin-top: 8px;
   }
@@ -274,3 +274,4 @@ article {
 .portfolio-images li:first-child {
   margin-left: 104px;
 }
+
