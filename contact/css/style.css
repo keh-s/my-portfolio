@@ -53,6 +53,7 @@ body {
 
   .main-part-wrapper {
     /* flex-direction: column; */
+    /* width: 100%; */
     margin-top: 35px;
   }
 }
@@ -153,6 +154,9 @@ article {
 }
 
 @media screen and (max-width: 768px) {
+  article {
+    width: 320px;
+  }
   .article-wrapper {
     width: 94%;
     height: auto;
@@ -275,42 +279,52 @@ article {
   }
 
   .form-left {
+    width: 100%;
+    margin-top:20px;
     margin-left: 0;
   }
 
   .form-left-box {
-    width: 80%;
-    margin: 15px;
+    width: 85%;
     padding: 0 12px;
   }
 
   .fl-list li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    width: 60px;
+    height:40px
+    line-height:40px;
+  }
+
+  .fr-boxes{
+width:80%;
   }
 
   .form-right p {
     font-size: 1.2rem;
-    height: 40px;
-    width: 70px;
+    width: 80px;
+    height: 50px;
+    
     line-height: 25px;
     margin: 15px 0;
   }
 
   .form-right {
-    margin-top: 12px;
+    margin-top: 15px;
+    width:100%;
     display: flex;
     align-items: flex-start;
   }
 
   .form-right-box {
-    width: 180px;
+    width: 85%;
     height: 100%;
-    margin-top: 5px;
-    padding: 15px;
+    margin-top: 0;
+    padding: 12px;
   }
 
   .form-btn {
-    width: 180px;
+    width: 240px;
     height: 24px;
     margin-top: 8px;
   }
