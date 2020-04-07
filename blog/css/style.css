@@ -226,15 +226,15 @@ article {
 @media screen and (max-width: 768px) {
   .blog-article-wrapper {
    flex-wrap:wrap-reverse;  /*ナビゲーションの逆折り返し*/
-   justify-content:center;
+   justify-content:left;
     width: 80%;   /*280pxの80%=224pxで設定*/
-    margin-top: 80px;
+    margin-top: 140px;
     margin-left: 45px;
   }
 
   .blog-article-box{
     margin-top:40px;
-    margin-left:30px;
+    margin-left:8px;
   }
   
   .blog-article-box img {
