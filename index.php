@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <title>keh's Design</title>
     <meta name="description" content="keh's Dsignのポートフォリオサイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <!-- <link rel="stylesheet" href="slick-theme.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="slick.css" type="text/css"> -->
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
-    <!-- <script src="slick.js" type="text/javascript"></script> -->
     <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../js/jquery-migrate-1.4.1.min.js"></script>
     <script src="jquery/sample.js" type="text/javascript"></script>
@@ -38,7 +36,7 @@
                         <li class="navItem unselected-nI"><a href="blog/index.php" class="link-tag">Blog</a></li>
                         <li class="navItem unselected-nI"><a href="profile/index.php" class="link-tag">About</a></li>
                     </ul>
-
+<!---slide-showパート---!>
                     <div class="swiper-container">
                         <div class="portfolio-images swiper-wrapper">
                             <div class="swiper-slide portImg-fadeIn" data-target="modal1"><img src="img/airbnb-img.jpg">
@@ -76,34 +74,39 @@
     </div>
     </div>
     <script>
-        var mySwiper = new Swiper('.swiper-container', {
+        var mySwiper = new Swiper('.swiper-container', {  //swiperの初期化
             // ここからオプション
 
-            pagination: {
+            pagination: {  //スライドの下の「・・・」（何枚目のスライドかを表示）
                 el: ".swiper-pagination",
                 clickable: true
             },
 
-            navigation: {
+            navigation: {  // 左右（上下）の矢印 < >ボタン
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev"
             },
 
-            loop: true,
-            slidesPerView: 3,
-            speed: 5000,
-            spacebetween: 100,
-            cssEase: 'linear',
-            autoplay: {
+            loop: true, //最後の画像→最初の画像にループ
+            slidesPerView: 3,  //表示する画像枚数
+            speed: 4000, //スライドする速度 1000＝1秒
+            spacebetween: 60, //画像と画像の間隔
+            centeredSlides : true,
+            autoplay: { //自動スライド設定
                 delay: 2000, //3000ミリ秒＝3秒
-                disableOnInteraction: true //操作されたら自動再生をストップさせる設定
+                disableOnInteraction: false, //操作されたら自動再生をストップさせる設定
             },
-
-            autoplay: {
-                delay: 1000, //3000ミリ秒＝3秒
-                disableOnInteraction: true //操作されたら自動再生をストップさせる設定
-            },
-        })
+            breakpoints: {
+                480: {
+                 slidesPerView: 1,
+                  spaceBetween: 10
+                 },
+                768: {
+                 slidesPerView: 2,
+                  spaceBetween: 20
+                 }
+                }
+        });
     </script>
 </body>
 
