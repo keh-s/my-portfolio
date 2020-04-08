@@ -147,7 +147,7 @@ article {
 
 @media screen and (max-width: 768px) {
   article {
-    width: 320px;
+    width: 100%;
   }
   .article-wrapper {
     width: 94%;
@@ -215,13 +215,14 @@ article {
 
 @media screen and (max-width: 768px) {
   .swiper-container {
-    width: 280px;
+    width: 100%;
     padding: 30px;
     height: 300px;
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   .portfolio-images {
+    /* width: 100%; */
     margin-top: 72px;
   }
 
@@ -231,9 +232,9 @@ article {
     box-shadow: 2 2 8px gray; /*----hover設定したら無効になった-----*/
   }
 
-  .swiper-slide {
+  /* .swiper-slide {
     width: 280px;
-  }
+  } */
 }
 
 /* --------モーダルウィンドウ------- */

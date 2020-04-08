@@ -1,8 +1,8 @@
-$(function() {
+$(function () {
   //--------------------スライドショー表示------------------
 
   // -------------------------モーダルウィンドウ-------------------
-  $(".portImg-fadeIn").click(function() {
+  $(".portImg-fadeIn").click(function () {
     // portImg-fadeInをclickすると
     $("body").append('<div id="port-modal-bg"></div>'); //htmlのbody最後に"port-modal-bg"(cssでプロパティ定義済みの黒い背景)を追加し
 
@@ -15,9 +15,9 @@ $(function() {
 
     // "port-modal-wrapper"(モーダルウィンドウ）と"port-modal-bg"(黒い背景)がゆっくりfadeIn
 
-    $(".port-modal,#port-modal-bg").click(function() {
+    $(".port-modal,#port-modal-bg").click(function () {
       //ウィンドウあるいは黒い背景（つまり画面のどこか）をクリックすると
-      $(".port-modal,#port-modal-bg").fadeOut("slow", function() {
+      $(".port-modal,#port-modal-bg").fadeOut("slow", function () {
         //それらがゆっくりfadeOutし
         $("#port-modal-bg").remove();
       }); //htmlのbodyの最後に追加したport-modal-bgを削除する
@@ -33,7 +33,7 @@ $(function() {
       $(".port-modal").css({
         //③モーダルウィンドウのcssにおいて以下の変更を行う
         left: (w - cw) / 2 + "px", //ウィンドウ幅からモーダルウィンドウ幅を引いて2で割った数値（=モーダルウィンドウが中央配置になる数値）をleft: pxに設定
-        top: 20 + "px" //ウィンドウ高さからモーダルウィンドウ高さを引いて2で割った数値（=モーダルウィンドウが中央配置になる数値）をtop: pxに設定 ※topの「20」と「(h - ch) / 2」を差し替えています。
+        top: 20 + "px", //ウィンドウ高さからモーダルウィンドウ高さを引いて2で割った数値（=モーダルウィンドウが中央配置になる数値）をtop: pxに設定 ※topの「20」と「(h - ch) / 2」を差し替えています。
       });
     } //要するにここまでで「①window幅が変わったら、②windowのサイズを取得し、③modal-windowのサイズを元に中央配置となる位置を計算→modal-windowの配置位置をcssに反映」させる//
   });

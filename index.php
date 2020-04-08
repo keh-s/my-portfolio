@@ -57,16 +57,16 @@
 
                 <!---------------- モーダルウィンドウ用画像 ---------------->
 
-                <div class="port-modal" id="modal1">
+                <div class="port-modal portImg-fadeIn" id="modal1">
                     <img src="img/airbnb-big-img.jpg" class="pm-img">
                 </div>
-                <div class="port-modal" id="modal2">
+                <div class="port-modal portImg-fadeIn" id="modal2">
                     <img src="img/jin-big-img.jpg" class="pm-img">
                 </div>
-                <div class="port-modal" id="modal3">
+                <div class="port-modal portImg-fadeIn" id="modal3">
                     <img src="img/dental-big-img.jpg" class="pm-img">
                 </div>
-                <div class="port-modal" id="modal4">
+                <div class="port-modal portImg-fadeIn" id="modal4">
                     <img src="img/isara-big-img.jpg" class="pm-img">
                 </div>
         </div>
@@ -77,10 +77,10 @@
         var mySwiper = new Swiper('.swiper-container', {  //swiperの初期化
             // ここからオプション
 
-            pagination: {  //スライドの下の「・・・」（何枚目のスライドかを表示）
-                el: ".swiper-pagination",
-                clickable: true
-            },
+            // pagination: {  //スライドの下の「・・・」（何枚目のスライドかを表示）
+            //     el: ".swiper-pagination",
+            //     clickable: true
+            // },
 
             navigation: {  // 左右（上下）の矢印 < >ボタン
                 nextEl: ".swiper-button-next",
@@ -88,7 +88,8 @@
             },
 
             loop: true, //最後の画像→最初の画像にループ
-            slidesPerView: 3,  //表示する画像枚数
+            // loopedSlides: 4,
+            slidesPerView: 4,  //表示する画像枚数
             speed: 4000, //スライドする速度 1000＝1秒
             spacebetween: 60, //画像と画像の間隔
             centeredSlides : true,
