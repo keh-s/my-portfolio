@@ -2,7 +2,7 @@
 
 /*-------------------共通仕様-------------------*/
 html {
-  font-size: 65%;
+  font-size: 62.5%;
   box-sizing: content-box;
 }
 
@@ -179,6 +179,13 @@ article {
 
 /* ---slide-showパート--- */
 
+.swiper-container {
+  width: 1000px;
+  padding: 50px;
+  height: 300px;
+  margin-top: 120px;
+}
+
 .portfolio-images {
   /* display: flex; */
   margin-top: 24px;
@@ -198,12 +205,35 @@ article {
   transition: 0.5s; /*----マウスを乗せた時の動き----*/
 }
 
-.portfolio-images div {
+/* .portfolio-images div {
   list-style-type: none;
-}
+} */
 
-.portfolio-images div:first-child {
+/* .portfolio-images div:first-child {
   margin-left: 104px;
+}*/
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    width: 280px;
+    padding: 30px;
+    height: 300px;
+    margin-top: 120px;
+  }
+
+  .portfolio-images {
+    margin-top: 72px;
+  }
+
+  .portfolio-images img {
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 2 2 8px gray; /*----hover設定したら無効になった-----*/
+  }
+
+  .swiper-slide {
+    width: 280px;
+  }
 }
 
 /* --------モーダルウィンドウ------- */
@@ -236,12 +266,6 @@ article {
 }
 
 /*----------------swiper------------------*/
-.swiper-container {
-  width: 1000px;
-  padding: 50px;
-  height: 300px;
-  margin-top: 120px;
-}
 
 /* -----------------ロゴ---------------- */
 /* .img-text {

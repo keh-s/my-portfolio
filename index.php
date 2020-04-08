@@ -39,13 +39,13 @@
 <!---slide-showパート---!>
                     <div class="swiper-container">
                         <div class="portfolio-images swiper-wrapper">
-                            <div class="swiper-slide portImg-fadeIn" data-target="modal1"><img src="img/airbnb-img.jpg">
+                            <div class="swiper-slide " data-target="modal1"><img src="img/airbnb-img.jpg">
                             </div>
-                            <div class="swiper-slide portImg-fadeIn" data-target="modal2"><img src="img/jin-img.jpg">
+                            <div class="swiper-slide " data-target="modal2"><img src="img/jin-img.jpg">
                             </div>
-                            <div class="swiper-slide portImg-fadeIn" data-target="modal3"><img src="img/dental-img.jpg">
+                            <div class="swiper-slide " data-target="modal3"><img src="img/dental-img.jpg">
                             </div>
-                            <div class="swiper-slide portImg-fadeIn" data-target="modal4"><img src="img/isara-img.jpg">
+                            <div class="swiper-slide " data-target="modal4"><img src="img/isara-img.jpg">
                             </div>
                         </div>
                         <div class="swiper-button-prev"></div>
