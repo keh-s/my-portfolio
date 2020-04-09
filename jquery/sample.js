@@ -6,7 +6,7 @@ $(function () {
     // portImg-fadeInをclickすると
     $("body").append('<div id="port-modal-bg"></div>'); //htmlのbody最後に"port-modal-bg"(cssでプロパティ定義済みの黒い背景)を追加し
 
-    modalResize(); //下で定義しているmodalResize関数を実行（modal-windowとブラウザの幅、高さを取得し、modal-windowが中央配置となる位置をcssに反映させる
+    modalResize(); //下で定義しているmodalResize関数を実行（modal-windowとブラウザの幅、高さを取得し、modal-windowが中央配置となる位置をcssに反映させる)
 
     const target = "#" + $(this).attr("data-target"); // this（clickした対象）のdata-target属性の値（= modal1～)をattrで取得し、その頭に「#」を付与して、id="modal1"～と紐付けしてtargetに代入
     $(target).fadeIn("slow"); //id付与して個別に用意したモーダルウィンドウをゆっくり開く

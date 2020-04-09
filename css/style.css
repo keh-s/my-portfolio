@@ -253,9 +253,23 @@ article {
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .port-modal {
+    width: 100%;
+    height: auto; /* モーダル～の高さを設定 */
+    padding: 20px;
+    overflow-y: scroll; /* モーダルの高さを超えた分はスクロールに */
+  }
+
+  .pm-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*-----------モーダルバックグラウンド-----------*/
 #port-modal-bg {
-  /*---jqueryでイベント発生時にhtmlに追加、または削除される---*/
+  /*---jqueryでイベント発生時にhtmlに追加、または削除される。ので、htmlファイル上に記述はない---*/
   display: none;
   width: 100%;
   height: 100%;
