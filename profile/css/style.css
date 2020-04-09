@@ -156,12 +156,6 @@ article {
     display: flex;
     left: -25px;
   }
-
-  .selected-nI {
-  }
-
-  .unselected-nI {
-  }
 }
 
 @media screen and (max-width: 760px) {
@@ -183,15 +177,18 @@ article {
 
   .selected-nI {
     font-size: 2rem;
-    width: 140px;
-    padding-left: 24px;
+    width: auto;
+    line-height: 30px;
+    padding: 10px 8px 10px 30px;
   }
 
   .unselected-nI {
     font-size: 1.2rem;
-    width: 110px;
-    padding: 16px 24px;
-    letter-spacing: 3px;
+    width: auto;
+    height: 50px;
+    line-height: 30px; /* heightと同じ50pxではなく、borderまでの30pxで上下中央にそろった*/
+    padding: 10px 8px;
+    letter-spacing: 2px;
   }
 }
 

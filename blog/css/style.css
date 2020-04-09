@@ -91,7 +91,7 @@ article {
 .article-wrapper {
   background-color: rgba(204, 255, 204, 0.55);
   width: 100%;
-  height: 440px;
+  height: auto;
   padding-top: 40px;
   margin-left: 20px;
   margin-right: 30px;
@@ -143,13 +143,18 @@ article {
   transition: 0.6s;
 }
 
-.article-title {
+/* .article-title {
   font-family: 游ゴシック体;
   font-size: 3rem;
   margin-top: 40px;
   margin-left: 64px;
   color: #fff;
   letter-spacing: 2.5px;
+} */
+
+.aside-text-responsive {
+  /*レスポンシブ時のaside-textの付け替えのための非表示設定*/
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -171,13 +176,27 @@ article {
 
   .selected-nI {
     font-size: 2rem;
-    width: 140px;
-    padding-left: 24px;
+    width: auto;
+    line-height: 30px;
+    padding: 10px 8px 10px 30px;
   }
 
   .unselected-nI {
     font-size: 1.2rem;
-    width: 110px;
+    width: auto;
+    height: 50px;
+    line-height: 30px; /* heightと同じ50pxではなく、borderまでの30pxで上下中央にそろった*/
+    padding: 10px 8px;
+    letter-spacing: 2px;
+  }
+
+  .aside-text-responsive {
+    /*レスポンシブ時のaside-textの付け替え*/
+    margin-top: 100px;
+    padding-left: 30px;
+    display: block;
+    text-align: left;
+    width: 90%;
   }
 }
 
@@ -186,6 +205,7 @@ article {
   display: flex;
   justify-content: space-around;
   width: 980px;
+  height: 100%;
   margin-top: 100px;
   margin-left: 70px;
 }
@@ -196,10 +216,12 @@ article {
 
 .blog-article-box img {
   width: 240px;
-  height: auto;
+  height: 160px;
+  object-fit: cover;
 }
 
 .bab-title {
+  margin-top: 10px;
   font-size: 1.6rem;
   font-weight: bolder;
   color: rgb(51, 51, 51);

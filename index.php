@@ -36,7 +36,12 @@
                         <li class="navItem unselected-nI"><a href="blog/index.php" class="link-tag">Blog</a></li>
                         <li class="navItem unselected-nI"><a href="profile/index.php" class="link-tag">About</a></li>
                     </ul>
+
 <!---slide-showパート---!>
+
+<p class="aside-text-responsive">
+                    IT転職を目指すプログラミング完全未経験の40代フリーターkehのポートフォリオサイトです。現在はサイト模写のみですが、1日も早く実案件の実績がご紹介できるよう日々精進しております。
+                </p>
                     <div class="swiper-container">
                         <div class="portfolio-images swiper-wrapper">
                             <div class="swiper-slide portImg-fadeIn" data-target="modal1"><img src="img/airbnb-img.jpg">

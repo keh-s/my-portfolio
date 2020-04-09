@@ -39,7 +39,7 @@
                     <div class="blog-article-wrapper">
                         <a href="" class="blog-link">
                             <div class="blog-article-box">
-                                <img src="img/airbnb-img.jpg">
+                                <img src="img/study-at-home.jpg">
                                 <p class="bab-title">Studying html at home</p>
                                 <p class="bab-text">
                                     Today,I studied html at home.I wanted concentrate on my study, but the temperature
@@ -53,7 +53,7 @@
                         </a>
                         <a href="" class="blog-link">
                             <div class="blog-article-box">
-                                <img src="img/airbnb-img.jpg">
+                                <img src="img/alphabet.jpg">
                                 <p class="bab-title">半角英数字の羅列ははみ出す</p>
                                 <p class="bab-text">
                                     blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog
@@ -67,7 +67,7 @@
                         </a>
                         <a href="" class="blog-link">
                             <div class="blog-article-box">
-                                <img src="img/airbnb-img.jpg">
+                                <img src="img/cherry-blossom.jpg">
                                 <p class="bab-title">桜が咲いたけど</p>
                                 <p class="bab-text">
                                     今日はとてもいい天気でした。桜も開花したという事ですが、コロナウィルスの影響で、みんなで集まってお花見はできそうになく、とても残念です。

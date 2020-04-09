@@ -36,7 +36,9 @@
                         <li class="navItem unselected-nI"><a href="../profile/index.php" class="link-tag">About</a></li>
                         <li class="navItem unselected-nI"><a href="../index.php" class="link-tag">Portfolio</a></li>
                     </ul>
-
+                    <p class="aside-text-responsive">
+                    このサイトに関するご意見、お問い合わせ、web制作のご依頼等はこちらのフォームからご連絡ください。
+                </p>
                     <form>
                         <div class="contact-wrapper">
                             <div class="form-left">
@@ -47,10 +49,10 @@
                                     <li>電話番号</li>
                                 </ul>
                                 <div class="fl-boxes">
-                                    <input type="text" class="co-name form-left-box">
-                                    <input type="text" class="name form-left-box">
-                                    <input type="text" class="mail-adress form-left-box">
-                                    <input type="text" class="phone-number form-left-box">
+                                    <input type="text" class="co-name form-left-box" placeholder="ex. ㈱yamada company">
+                                    <input type="text" class="name form-left-box" placeholder="ex. yamada taro">
+                                    <input type="text" class="mail-adress form-left-box" placeholder="ex. 1234abcd@example.com">
+                                    <input type="text" class="phone-number form-left-box" placeholder="ex. ハイフン抜きで">
                                 </div>
                             </div>
                             <div class="form-right">

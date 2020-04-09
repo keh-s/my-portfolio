@@ -144,13 +144,18 @@ article {
   transition: 0.6s;
 }
 
-.article-ttl {
+/* .article-ttl {
   font-family: 游ゴシック体;
   font-size: 3rem;
   margin-top: 60px;
   margin-left: 64px;
   color: #fff;
   letter-spacing: 2.5px;
+} */
+
+.aside-text-responsive {
+  /*レスポンシブ時のaside-textの付け替えのための非表示設定*/
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -175,13 +180,27 @@ article {
 
   .selected-nI {
     font-size: 2rem;
-    width: 140px;
-    padding-left: 24px;
+    width: auto;
+    line-height: 30px;
+    padding: 10px 8px 10px 30px;
   }
 
   .unselected-nI {
     font-size: 1.2rem;
-    width: 110px;
+    width: auto;
+    height: 50px;
+    line-height: 30px; /* heightと同じ50pxではなく、borderまでの30pxで上下中央にそろった*/
+    padding: 10px 8px;
+    letter-spacing: 2px;
+  }
+
+  .aside-text-responsive {
+    /*レスポンシブ時のaside-textの付け替え*/
+    margin-top: 100px;
+    padding-left: 35px;
+    display: block;
+    text-align: left;
+    width: 90%;
   }
 }
 
@@ -240,11 +259,13 @@ article {
 
 .form-btn {
   border: solid 1px rgb(101, 191, 125, 0.5);
-  width: 35rem;
+  width: 36.8rem;
   height: 3rem;
   border-radius: 4px;
   display: block;
   margin-top: 8px;
+  background-color: rgb(101, 191, 125, 0.5);
+  color: #fff;
 }
 
 .form-left-box {
