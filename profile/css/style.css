@@ -304,7 +304,7 @@ article {
 
 @media screen and (max-width: 960px) {
   .career-wrapper {
-    width: 95%;
+    width: 60%;
     height: auto;
     padding-bottom: 70px;
     position: absolute;
@@ -323,7 +323,8 @@ article {
 
 @media screen and (max-width: 760px) {
   .career-wrapper {
-    width: auto;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 90%;
     left: -25px;
@@ -349,7 +350,7 @@ article {
   }
 
   .cl-right li {
-    width: 196px;
+    width: 95%; /*テキスト幅*/
     margin-left: 10px;
     margin-top: 20px;
     padding-right: 10px;
@@ -480,7 +481,7 @@ article {
 @media screen and (max-width: 760px) {
   .service-wrapper {
     width: 92%;
-    margin-top: 472px;
+    margin-top: 510px;
     top: auto;
     left: 50%;
     transform: translate(-50%);
