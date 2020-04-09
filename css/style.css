@@ -222,7 +222,7 @@ article {
   }
 
   .portfolio-images {
-    /* width: 100%; */
+    width: 100%;
     margin-top: 72px;
   }
 
@@ -255,8 +255,8 @@ article {
 
 @media screen and (max-width: 768px) {
   .port-modal {
-    width: 100%;
-    height: auto; /* モーダル～の高さを設定 */
+    width: 80%; /*画面幅の80%設定*/
+    height: 92%; /* autoだとスクロール設定にならない */
     padding: 20px;
     overflow-y: scroll; /* モーダルの高さを超えた分はスクロールに */
   }

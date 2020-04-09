@@ -98,12 +98,18 @@
                 disableOnInteraction: false, //操作されたら自動再生をストップさせる設定
             },
             breakpoints: {
-                480: {
+                320: {  //320px～600pxまではこの設定
                  slidesPerView: 1,
                   spaceBetween: 10
                  },
-                768: {
+
+                 600: {  //600px～767pxまではこの設定
                  slidesPerView: 2,
+                  spaceBetween: 10
+                 },
+
+                768: { //768px～からはこの設定
+                 slidesPerView: 3,
                   spaceBetween: 20
                  }
                 }
