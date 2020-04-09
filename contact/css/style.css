@@ -290,7 +290,8 @@ article {
 
 @media screen and (max-width: 768px) {
   .contact-wrapper {
-    margin-top: 56px;
+    margin-top: 5px;
+    padding-top: 5px;
     flex-direction: column;
     justify-content: left;
   }
@@ -311,7 +312,7 @@ article {
   }
 
   .fl-list li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     width: 60px;
   }
 

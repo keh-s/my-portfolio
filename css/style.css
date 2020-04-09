@@ -240,14 +240,14 @@ article {
 @media screen and (max-width: 768px) {
   .swiper-container {
     width: 100%;
-    padding: 30px;
-    height: 300px;
+    height: auto;
+    padding: 15px;
     margin-top: 10px;
   }
 
   .portfolio-images {
     width: 100%;
-    margin-top: 72px;
+    margin-top: 32px;
   }
 
   .portfolio-images img {

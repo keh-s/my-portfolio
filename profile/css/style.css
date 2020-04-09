@@ -218,7 +218,7 @@ article {
 @media screen and (max-width: 960px) {
   .about-wrapper {
     height: auto;
-    margin: 140px 50px 50px 50px;
+    margin: 90px 50px 50px 50px;
   }
 
   .profile-img {
@@ -227,6 +227,7 @@ article {
 
   .profile-text p {
     width: 80%;
+    margin-top: 10px;
     margin-left: 40px;
     letter-spacing: 1.7px;
   }
@@ -246,6 +247,7 @@ article {
   }
 
   .profile-img {
+    margin-top: 10px;
     margin-left: 40px;
     width: 120px;
     height: 120px;
