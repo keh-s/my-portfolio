@@ -302,7 +302,7 @@ article {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1140px) {
   .career-wrapper {
     width: 60%;
     height: auto;
@@ -319,12 +319,13 @@ article {
   .cl-right li {
     width: 80%;
   }
+
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .career-wrapper {
     width: 100%;
-    height: 100%;
+    height: auto;
     position: absolute;
     top: 90%;
     left: -25px;
@@ -370,6 +371,11 @@ article {
     margin-top: 110px;
   }
 }
+
+@media screen and (max-width: 320px) {
+
+
+  }
 
 /* -----------サービスパート--------------- */
 
@@ -448,12 +454,12 @@ article {
   margin: 10px auto 0;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1140px) {
   .service-wrapper {
     width: 640px;
     height: auto;
     padding-bottom: 30px;
-    margin-top: 380px;
+    margin-top: 470px;
     top: auto;
     left: 50%;
     transform: translate(-50%);
@@ -478,10 +484,10 @@ article {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .service-wrapper {
     width: 92%;
-    margin-top: 510px;
+    margin-top: 410px;
     top: auto;
     left: 50%;
     transform: translate(-50%);
@@ -517,6 +523,13 @@ article {
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .service-wrapper {
+    margin-top: 470px;
+    left: 190px;
+  }
+
 
 /* -----------------ロゴ---------------- */
 /* .img-text {

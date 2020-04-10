@@ -49,10 +49,10 @@
                                     <li>電話番号</li>
                                 </ul>
                                 <div class="fl-boxes">
-                                    <input type="text" class="co-name form-left-box" placeholder="ex. ㈱yamada company">
+                                    <input type="text" class="co-name form-left-box" placeholder="ex. ㈱yamada">
                                     <input type="text" class="name form-left-box" placeholder="ex. yamada taro">
-                                    <input type="text" class="mail-adress form-left-box" placeholder="ex. 1234abcd@example.com">
-                                    <input type="text" class="phone-number form-left-box" placeholder="ex. ハイフン抜きで">
+                                    <input type="text" class="mail-adress form-left-box" placeholder="ex. abc@example.com">
+                                    <input type="text" class="phone-number form-left-box" placeholder="ハイフン抜きで">
                                 </div>
                             </div>
                             <div class="form-right">
