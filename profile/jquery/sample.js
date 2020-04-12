@@ -10,6 +10,10 @@ $(function () {
     // serviceBox.fadeOut();
     // }
   });
+
+  var ptop = $(".career-wrapper").offset().top;
+  var pbottom = ptop + $(".career-wrapper").outerHeight();
+  $(".sb-txt-1").html(<p>ptop</p>);
 });
 
 //   $(".service-box").animate({ opacity: 0 }, 2000);

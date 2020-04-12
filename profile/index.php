@@ -7,11 +7,8 @@
     <meta name="description" content="keh's Designのポートフォリオサイト">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="slick-theme.css" type="text/css">
-    <link rel="stylesheet" href="slick.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="slick.js" type="text/javascript"></script>
     <script src="jquery/sample.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Changa+One&display=swap" rel="stylesheet">
@@ -44,36 +41,39 @@
                             </p>
                         </div>
                     </div>
-</div>
                     <div class="career-wrapper">
                         <p class="career-ttl">Career<p>
-                        <div class="career-list-wrapper">
-                            <ul class="cl-left">
-                                <li class="cl-left-li">2002年</li>
-                                <li class="cl-left-li">2003年</li>
-                                <li class="cl-left-blank2003">2004年</li>
-                                <li class="cl-left-blank2004">2019年</li>
-                                <li class="cl-left-li">現在</li>
-                            </ul>
-                            <ul class="cl-right">
-                                <li>4年制大学 外国語学部卒業</li>
-                                <li>郵政公社に入社</li>
-                                <li>郵便、貯金、保険の業務に従事</li>
-                                <li>同社を退社し、地方自治体に就職</li>
-                                <li>区画整理事業、徴税事務、国勢調査などに従事</li>
-                                <li>同自治体を退社し、フリーターに</li>
-                                <li>フリーターの傍ら、Web制作を請負いながらIT企業への転職活動中</li>
-                            </ul>
-                        </div>
+                        <ul class="career-list-wrapper">
+                            <li class="career-list">
+                                    <p class="cl-year">2002年</p>
+                                    <p class="cl-text">4年制大学 外国語学部卒業</p>
+                            </li>
+                            <li class="career-list">
+                                    <p class="cl-year">2003年</p>
+                                    <p class="cl-text">郵政公社に入社<br>郵便、貯金、保険の業務に従事</p>
+                            </li>
+                            <li class="career-list">
+                                    <p class="cl-year">2004年</p>
+                                    <p class="cl-text">同社を退社し、地方自治体に就職<br>
+                                    区画整理事業、徴税事務、国勢調査などに従事</p>
+                            </li>
+                            <li class="career-list">
+                                    <p class="cl-year">2019年</p>
+                                    <p class="cl-text">同自治体を退社し、フリーターに</p>
+                            </li>
+                            <li class="career-list">
+                                    <p class="cl-year">現在</p>
+                                    <p class="cl-text">フリーターの傍ら、Web制作を請負いながらIT企業への転職活動中</p>
+                            </li>
+                        </ul>
                     </div>
-                    <!-- <div class="service-position"> -->
-                        <div class="service-wrapper">
-                           <p class="service-ttl">Service</p>
-                          <div class="service-box-wrapper">
-                             <div class="service-box">
-                                    <img src="img/pc-image.jpg" class="service-img">
-                                    <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
-                                    <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
+                    <div class="service-wrapper">
+                        <p class="service-ttl">Service</p>
+                        <div class="service-box-wrapper">
+                            <div class="service-box">
+                                <img src="img/pc-image.jpg" class="service-img">
+                                <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
+                                <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
@@ -84,11 +84,11 @@
                             <div class="service-box">
                                 <p class="service-img-bg">
                                 <img src="img/support-image.jpg" class="service-img support-img"></p>
-                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>
-                                <p class="sb-txt">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>                       <p class="sb-txt sb-txt-1">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
                             </div>
                         </div>
-                    <!-- </div> -->
+                    </div>
+                </div>
             </article>
         </div>
     </div>
