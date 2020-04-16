@@ -48,13 +48,20 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     margin: 0 auto;
-    /*text-align: center; */
+    text-align: center;
   }
 
   .main-ttl {
-    padding-top: 24px;
+    margin-top: 40px;
     width: 300px; /*320→300に変更したよ*/
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-ttl {
     font-size: 4rem;
+    width: 240px;
   }
 }
 
@@ -104,7 +111,7 @@ article {
   display: flex;
   position: absolute;
   top: 40px;
-  left: -190px; /* ???  */
+  left: -170px; /* ???  */
 }
 
 .navItem {
@@ -345,7 +352,7 @@ article {
 .service-wrapper {
   width: 980px;
   height: auto;
-  background-color: rgba(204, 255, 204, 0.55);
+  background-color: rgba(204, 255, 204, 0.9);
   padding-top: 20px;
   padding-bottom: 50px;
   margin-bottom: 50px;
