@@ -314,6 +314,11 @@ article {
 
   .career-ttl {
     padding-left: 20px;
+    text-align: left;
+  }
+
+  .cl-text {
+    text-align: left;
   }
 }
 
@@ -323,7 +328,7 @@ article {
   }
 
   .career-ttl {
-    padding-left: 72px;
+    padding-left: 48px;
   }
 }
 
@@ -369,6 +374,7 @@ article {
   letter-spacing: 1px;
   line-height: 30px;
   margin-left: 32px;
+  text-align: left;
 }
 
 .service-box-wrapper {
