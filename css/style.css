@@ -17,8 +17,9 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   height: 100%;
-  /* max-width:; */
-  /* margin: 0 auto; */
+  background-color: turquoise;
+  background-image: url("../img/p_da0626_s_da06260.png");
+  background-repeat: repeat;
 }
 
 .container {
@@ -30,8 +31,12 @@ body {
   font-size: 6rem;
   letter-spacing: -1.2px;
   color: rgb(120, 245, 141);
-  padding-top: 20px;
+  width: 360px; /*460→360に変更したよ*/
   height: 19%;
+  margin-top: 20px; /*padding→marginにしたよ*/
+  border-radius: 4px; /*追加したよ*/
+  background-color: rgba(255, 255, 255, 0.95); /*背景色付けたよ*/
+  text-align: center; /*追加したよ*/
 }
 
 .main-part-wrapper {
@@ -48,15 +53,21 @@ body {
 
   .main-ttl {
     padding-top: 24px;
-    width: 320px;
-    text-align: center;
+    width: 300px; /*360→300に変更したよ*/
     font-size: 4rem;
   }
 
   .main-part-wrapper {
-    /* flex-direction: column; */
-    /* width: 100%; */
     margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*追加したよ*/
+
+  .main-ttl {
+    margin-top: 40px; /*padding24→margin40に変化*/
+    width: 240px; /*300→240に変化*/
   }
 }
 
@@ -73,6 +84,9 @@ aside {
   margin: 100px auto 0 auto;
   font-size: 1.4rem;
   color: rgb(51, 51, 51);
+  padding: 10px; /* padding 追加*/
+  border-radius: 1px; /*角を丸くした*/
+  background-color: rgba(255, 255, 255, 0.95); /*透過にした*/
 }
 
 @media screen and (max-width: 768px) {
@@ -90,7 +104,7 @@ article {
 }
 
 .article-wrapper {
-  background-color: rgba(204, 255, 204, 0.55);
+  background-color: rgba(204, 255, 204, 0.9); /*透過*/
   width: 100%;
   height: 440px;
   padding-top: 40px;
@@ -108,7 +122,7 @@ article {
 
 .navItem {
   list-style-type: none;
-  background-color: rgb(101, 191, 125, 0.3);
+  background-color: rgb(101, 191, 125, 0.7); /*透過0.3→0.7*/
   text-align: center;
 }
 
@@ -130,14 +144,14 @@ article {
 }
 
 .link-tag {
-  width: px;
+  /* width: px;  設定必要？*/
   height: 57px;
   text-decoration: none;
   transition: 1.6s;
 }
 
 .link-tag:link {
-  color: rgb(101, 191, 125, 0.5);
+  color: rgb(101, 191, 125, 0.5); /*透過*/
 }
 
 .link-tag:hover {
@@ -146,8 +160,7 @@ article {
 }
 
 .aside-text-responsive {
-  /*レスポンシブ時のaside-textの付け替えのための非表示設定*/
-  display: none;
+  display: none; /*レスポンシブ時のaside-textの付け替えのための非表示設定*/
 }
 
 @media screen and (max-width: 768px) {
@@ -266,6 +279,7 @@ article {
   position: fixed;
   overflow-y: scroll; /* モーダルの高さを超えた分はスクロールに */
   z-index: 2;
+  display: none;
 }
 
 .pm-img {

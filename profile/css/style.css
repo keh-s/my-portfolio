@@ -17,8 +17,9 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   height: 100%;
-  /* max-width:; */
-  /* margin: 0 auto; */
+  background-color: turquoise;
+  background-image: url("../img/p_da0626_s_da06260.png");
+  background-repeat: repeat;
 }
 
 .container {
@@ -30,8 +31,12 @@ body {
   font-size: 6rem;
   letter-spacing: -1.2px;
   color: rgb(120, 245, 141);
-  padding-top: 20px;
+  width: 360px; /*460→360に変更したよ*/
   height: 19%;
+  margin-top: 20px; /*padding→marginにしたよ*/
+  border-radius: 4px; /*追加したよ*/
+  background-color: rgba(255, 255, 255, 0.95); /*背景色付けたよ*/
+  text-align: center; /*追加したよ*/
 }
 
 .main-part-wrapper {
@@ -43,18 +48,12 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     margin: 0 auto;
+    /*text-align: center; */
   }
-  /* .main-part-wrapper {
-    flex-direction: column;
-    margin-top: 35px;
-  } */
-}
 
-@media screen and (max-width: 768px) {
   .main-ttl {
     padding-top: 24px;
-    width: 320px;
-    text-align: center;
+    width: 300px; /*320→300に変更したよ*/
     font-size: 4rem;
   }
 }
@@ -72,6 +71,9 @@ aside {
   margin: 100px auto 0 auto;
   font-size: 1.4rem;
   color: rgb(51, 51, 51);
+  padding: 10px; /* padding 追加*/
+  border-radius: 1px; /*角を丸くした*/
+  background-color: rgba(255, 255, 255, 0.95); /*透過にした*/
 }
 
 @media screen and (max-width: 1020px) {
@@ -90,7 +92,7 @@ article {
 }
 
 .article-wrapper {
-  background-color: rgba(204, 255, 204, 0.55);
+  background-color: rgba(204, 255, 204, 0.9); /*透過0.55→0.9*/
   width: 100%;
   height: 440px;
   padding-top: 40px;
@@ -107,7 +109,7 @@ article {
 
 .navItem {
   list-style-type: none;
-  background-color: rgb(101, 191, 125, 0.3);
+  background-color: rgb(101, 191, 125, 0.7); /*透過0.3→0.7*/
   text-align: center;
 }
 
@@ -129,13 +131,14 @@ article {
 }
 
 .link-tag {
-  width: px;
+  /* width: px;  設定必要？*/
   height: 57px;
   text-decoration: none;
+  transition: 1.6s;
 }
 
 .link-tag:link {
-  color: rgb(101, 191, 125, 0.3);
+  color: rgb(101, 191, 125, 0.5); /*透過　0.3→0.5*/
 }
 
 .link-tag:hover {
@@ -161,8 +164,6 @@ article {
 @media screen and (max-width: 768px) {
   .article-wrapper {
     width: 90%;
-    height: auto;
-    padding-top: 10px;
     padding-bottom: 30px;
     margin-left: 40px;
   }
@@ -259,7 +260,7 @@ article {
 .career-wrapper {
   width: 860px;
   height: 480px;
-  background-color: rgb(101, 191, 125, 0.3);
+  background-color: rgb(255, 255, 255, 0.9);
   position: absolute;
   top: 380px;
   left: 130px;
@@ -269,7 +270,7 @@ article {
   font-family: 游ゴシック体;
   font-size: 2.4rem;
   font-weight: 600;
-  color: #fff;
+  color: rgb(51, 51, 51);
   letter-spacing: 1px;
   line-height: 60px;
   margin-left: 22px;
