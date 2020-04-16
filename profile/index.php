@@ -73,13 +73,13 @@
                             <div class="service-box">
                                 <img src="img/pc-image.jpg" class="service-img">
                                 <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
-                                <p class="sb-txt">サイト訪問者の目線を考えた、分かりやすく見やすいサイト作り。かつ、お客様とのコミュニケーションを通して、ご希望に沿ったデザインをご提案します。</p>
+                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく見やすいサイトをご提案します。また、お客様のご要望にも柔軟に対応いたします。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
                                 <img src="img/comprehensible-img.jpg" class="service-img comprehend-img"></p>
-                                <p class="sb-ttl comprehend-ttl">丁寧で分かりやすい説明</p>
-                                <p class="sb-txt">細やかな配慮や柔軟な対応で円滑に制作を進めます。納期やお見積りご相談ください。</p>
+                                <p class="sb-ttl comprehend-ttl">丁寧かつ迅速</p>
+                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。お見積り、納期のご相談はお気軽にどうぞ。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
