@@ -54,12 +54,12 @@
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2004年</p>
-                                    <p class="cl-text">同社を退社し、地方自治体に就職<br>
-                                    区画整理事業、徴税事務、国勢調査などに従事</p>
+                                    <p class="cl-text">同社を退社し、地元役場に就職<br>
+                                    区画整理事業、徴税事務などに従事</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2019年</p>
-                                    <p class="cl-text">同自治体を退社し、フリーターに</p>
+                                    <p class="cl-text">地元役場を退社し、フリーターに</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">現在</p>
@@ -73,13 +73,13 @@
                             <div class="service-box">
                                 <img src="img/pc-image.jpg" class="service-img">
                                 <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
-                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく見やすいサイトをご提案します。また、お客様のご要望にも柔軟に対応いたします。</p>
+                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく見やすいサイトをご提案します。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
                                 <img src="img/comprehensible-img.jpg" class="service-img comprehend-img"></p>
                                 <p class="sb-ttl comprehend-ttl">丁寧かつ迅速</p>
-                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。お見積り、納期のご相談はお気軽にどうぞ。</p>
+                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。また、お客様のご要望にも柔軟に対応いたします。お見積り、納期のご相談はお気軽にどうぞ。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
