@@ -357,7 +357,7 @@ article {
 .service-wrapper {
   width: 980px;
   height: auto;
-  background-color: rgba(204, 255, 204, 0.9);
+  background-color: rgba(235, 178, 192, 0.9);
   padding-top: 20px;
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -370,7 +370,7 @@ article {
   font-family: 游ゴシック体;
   font-size: 2.8rem;
   font-weight: 600;
-  color: #fff;
+  color: rgb(255, 255, 255);
   letter-spacing: 1px;
   line-height: 30px;
   margin-left: 32px;
