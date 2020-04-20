@@ -8,9 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-migrate-1.4.1.min.js"></script>
     <script src="jquery/sample.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
@@ -73,6 +72,14 @@
                 </div>
                 <div class="port-modal" id="modal4">
                     <img src="img/isara-big-img.jpg" class="pm-img">
+                </div>
+
+                <!-- ローディング画面用設定 アニメーション-->
+                <div id="loader-bg">
+                    <div id="loader">
+                        <img src="img/logo.png" alt="loadingなう" />
+                        <p>loading...</p>
+                    </div>
                 </div>
         </div>
         </article>

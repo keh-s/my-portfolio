@@ -1,5 +1,29 @@
 $(function () {
-  //--------------------スライドショー表示------------------
+  //--------------------loading------------------
+  $(function () {
+    //
+    var h = $(window).height();
+    //ブラウザwidowの高さを取得;
+    $("#loading__wrapper").css("display", "none"); //コンテンツを非表示に
+    $("#loader-bg ,#loader").height(h).css("display", "block"); //loading画像表示
+  });
+
+  $(window).on("load", function () {
+    //読み込み完了したら次を実行
+    $("#loader-bg").delay(900).fadeOut(800); // ローディングを隠す
+    $("#loader").delay(600).fadeOut(300);
+    $("#loading__wrapper").css("display", "block"); //コンテンツを表示する
+  });
+
+  $(function () {
+    setTimeout("stopload()", 10000);
+  });
+
+  function stopload() {
+    $("#loading__wrapper").css("display", "block");
+    $("#loader-bg").delay(900).fadeOut(800);
+    $("#loader").delay(600).fadeOut(300);
+  }
 
   // -------------------------モーダルウィンドウ-------------------
   $(".portImg-fadeIn").click(function () {
