@@ -22,7 +22,7 @@
         <div class="main-part-wrapper">
             <aside>
                 <p class="aside-text">
-                IT転職を目指すプログラミング完全未経験の40代フリーターkehのポートフォリオサイトです。現在はサイト模写のみですが、1日も早く実案件の実績がご紹介できるよう日々精進しております。
+                IT起業への転職を目指すプログラミング未経験の40代フリーターのポートフォリオです。現在はサイト模写のみですが、1日も早く実案件の実績がご紹介できるよう日々精進しております。
                 </p>
             </aside>
             <article>
@@ -36,8 +36,8 @@
                     <div class="about-wrapper">
                         <img src="img/logo.png" class="profile-img">
                         <div class="profile-text">
-                            <p>名前：Keh</p>
-                            <p>40代未経験にしてIT業界への転職を志す2児の父。現在はアルバイトの傍らweb制作スキルを磨くために独学で勉強中。困難と言われる40代のIT業界への転職を成功させるのが直近の目標です。web制作を通じて、地域商店や地域産業のプロモーションと活性化のお役に立ちたいと思っています。
+                            <p>名前：黒須 茂（くろす しげる）</p>
+                            <p>プログラミング未経験にしてIT企業への転職を志す2児の父です。現在はアルバイトしながら主夫業をこなす傍ら、独学でweb制作を勉強しています。40代で未経験からのIT業界への転職は厳しいとも言われておりますが「遅すぎる事は何もない！」の精神で、必ずその壁を乗り越えようと思います。
                             </p>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                         <ul class="career-list-wrapper">
                             <li class="career-list">
                                     <p class="cl-year">2002年</p>
-                                    <p class="cl-text">4年制大学 外国語学部卒業</p>
+                                    <p class="cl-text">獨協大学 外国語学部卒業</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2003年</p>
@@ -59,11 +59,11 @@
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2019年</p>
-                                    <p class="cl-text">地元役場を退社し、フリーターに</p>
+                                    <p class="cl-text">地元役場を退社し、住宅建材会社にアルバイトで入社</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">現在</p>
-                                    <p class="cl-text">フリーターの傍ら、Web制作を請負いながらIT企業への転職活動中</p>
+                                    <p class="cl-text">アルバイトの傍ら、IT企業への転職活動中</p>
                             </li>
                         </ul>
                     </div>
