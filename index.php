@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>keh's Design</title>
-    <meta name="description" content="keh's Dsignのポートフォリオサイト">
+    <meta name="description" content="keh's Designのポートフォリオサイト">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
     <script src="jquery/sample.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 </head>
 
@@ -24,12 +24,12 @@
         <div class="main-part-wrapper">
             <aside>
                 <p class="aside-text">
-                日中、会社勤めをしながら、帰宅後～週末にweb制作を請け負う2児の父kehです。
-                魅力的で分かりやすいサイト作りならお任せください！管理しやすく飽きのこないデザイン、訪問者が知りたい情報に辿り着くまでに迷子にならない構成などなど、運営者様と訪問者様双方の目線から最適なサイトをご提案いたします。
+                フリーランスでweb制作を請け負うkehです。
+                魅力的で分かりやすいサイト作りならお任せください！管理しやすく飽きのこないデザイン、訪問者が知りたい情報に辿り着くまでに迷子にならない構成など、サイト運営者様とサイト訪問者様双方の目線から最適なサイトをご提案いたします。
                 </p>
             </aside>
             <article>
-                <div class="article-wrapper">
+                <div class="article-wrapper box-shadow">
                     <ul class="main-nav-wrapper">
                         <li class="navItem selected-nI">Portfolio</li>
                         <li class="navItem unselected-nI"><a href="contact/index.php" class="link-tag">Contact</a></li>
@@ -37,11 +37,11 @@
                         <li class="navItem unselected-nI"><a href="profile/index.php" class="link-tag">About</a></li>
                     </ul>
 
-<!---slide-showパート---!>
+                        <!-- slide-showパート -->
 
-<p class="aside-text-responsive">
-                    IT転職を目指すプログラミング未経験の40代フリーターのポートフォリオです。現在はサイト模写のみですが、1日も早く実案件の実績がご紹介できるよう日々精進しております。
-                </p>
+                    <p class="aside-text-responsive">
+                    フリーランスでweb制作を請け負うkehのポートフォリオです。サイト運営者様とサイト訪問者様双方の目線から最適なサイトをご提案いたします。
+                    </p>
                     <div class="swiper-container">
                         <div class="portfolio-images swiper-wrapper">
                             <div class="swiper-slide portImg-fadeIn" data-target="modal1"><img src="img/airbnb-img.jpg">
@@ -52,39 +52,42 @@
                             </div>
                             <div class="swiper-slide portImg-fadeIn" data-target="modal4"><img src="img/isara-img.jpg">
                             </div>
+                            <div class="swiper-slide portImg-fadeIn" data-target="modal5"><img src="img/owada-img.jpg">
+                            </div>
+
                         </div>
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
-                        <!-- スクロールバー（※省略可） -->
-                        <!-- <div class="swiper-scrollbar"></div> -->
                     </div>
-                </div>
 
-                <!---------------- モーダルウィンドウ用画像 ---------------->
+                    <!---------------- モーダルウィンドウ用画像 ---------------->
 
-                <div class="port-modal" id="modal1">
-                    <img src="img/airbnb-big-img.jpg" class="pm-img">
-                </div>
-                <div class="port-modal" id="modal2">
-                    <img src="img/jin-big-img.jpg" class="pm-img">
-                </div>
-                <div class="port-modal" id="modal3">
-                    <img src="img/dental-big-img.jpg" class="pm-img">
-                </div>
-                <div class="port-modal" id="modal4">
-                    <img src="img/isara-big-img.jpg" class="pm-img">
-                </div>
+                        <div class="port-modal" id="modal1">
+                          <img src="img/airbnb-big-img.jpg" class="pm-img">
+                        </div>
+                        <div class="port-modal" id="modal2">
+                          <img src="img/jin-big-img.jpg" class="pm-img">
+                        </div>
+                        <div class="port-modal" id="modal3">
+                          <img src="img/dental-big-img.jpg" class="pm-img">
+                        </div>
+                        <div class="port-modal" id="modal4">
+                         <img src="img/isara-big-img.jpg" class="pm-img">
+                        </div>
+                        <div class="port-modal" id="modal5">
+                         <img src="img/owada-big-img.jpg" class="pm-img">
+                        </div>
 
-                <!-- ローディング画面用設定 アニメーション-->
-                <div id="loader-bg">
-                    <div id="loader">
-                        <img src="img/logo.png" alt="loadingなう" />
-                        <p>loading...</p>
-                    </div>
+                    <!-- ローディング画面用設定 アニメーション-->
+                        <div id="loader-bg">
+                              <div id="loader">
+                                    <img src="img/logo.png" alt="loadingなう" />
+                                    <p>loading...</p>
+                              </div>
+                        </div>
                 </div>
+            </article>
         </div>
-        </article>
-    </div>
     </div>
     <script>
         var mySwiper = new Swiper('.swiper-container', {  //swiperの初期化
@@ -101,8 +104,8 @@
             },
 
             loop: true, //最後の画像→最初の画像にループ
-            // loopedSlides: 4,
-            slidesPerView: 4,  //表示する画像枚数
+            // loopedSlides: 5,
+            slidesPerView: 5,  //表示する画像枚数
             speed: 4000, //スライドする速度 1000＝1秒
             spacebetween: 60, //画像と画像の間隔
             centeredSlides : true,

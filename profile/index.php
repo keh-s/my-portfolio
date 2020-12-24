@@ -22,8 +22,8 @@
         <div class="main-part-wrapper">
             <aside>
                 <p class="aside-text">
-                日中、会社勤めをしながら、帰宅後～週末にweb制作を請け負う2児の父kehです。
-                魅力的で分かりやすいサイト作りならお任せください！管理しやすく飽きのこないデザイン、訪問者が知りたい情報に辿り着くまでに迷子にならない構成などなど、運営者様と訪問者様双方の目線から最適なサイトをご提案いたします。
+                フリーランスでweb制作を請け負う2児の父kehです。
+                魅力的で分かりやすいサイト作りならお任せください！管理しやすく飽きのこないデザイン、訪問者が知りたい情報に辿り着くまでに迷子にならない構成など、サイト運営者様とサイト訪問者様双方の目線から最適なサイトをご提案いたします。
                 </p>
             </aside>
             <article>
@@ -38,7 +38,7 @@
                         <img src="img/logo.png" class="profile-img">
                         <div class="profile-text">
                             <p>名前：keh</p>
-                            <p>地方公務員退職を機にweb制作を学び、現在は住宅建材製造会社に勤めながら、web制作を請け負っています。サイト運営者様の目的に合わせて最大限の効果を得られることとともに、サイト訪問者様にとって、見やすく分かりやすいサイト作りを心掛けております。「相手の気持ちを考えたweb制作」によって、運営者様と訪問者様の大切な「出会い」あるいは「交流」の場となるホームページを素敵に演出いたします。
+                            <p>地方公務員退職を機にweb制作を学び、現在は住宅建材メーカーに勤務の傍ら、web制作を請け負っています。サイト運営者様の目的に合わせて最大限の効果を得られることとともに、サイト訪問者様にとって、見やすく分かりやすいサイト作りを心掛けております。「相手の気持ちを考えたweb制作」によって、運営者様と訪問者様の「思いをつなぐ」そんなホームページをご提案いたします。
                             </p>
                         </div>
                     </div>
@@ -55,16 +55,16 @@
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2004年</p>
-                                    <p class="cl-text">同社を退社し、地元役場に就職<br>
+                                    <p class="cl-text">同社を退社し、地方公務員に<br>
                                     区画整理事業、徴税事務などに従事</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2019年</p>
-                                    <p class="cl-text">地元役場を退社し、住宅建材製造会社に入社</p>
+                                    <p class="cl-text">地方公務員を辞め、住宅建材メーカーに入社</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">現在</p>
-                                    <p class="cl-text">住宅建材製造会社に勤める傍ら、web制作を請け負う</p>
+                                    <p class="cl-text">本業の傍ら、フリーランスでweb制作を請け負う</p>
                             </li>
                         </ul>
                     </div>
@@ -74,18 +74,18 @@
                             <div class="service-box">
                                 <img src="img/pc-image.jpg" class="service-img">
                                 <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
-                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく見やすいサイトをご提案します。</p>
+                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく使いやすいサイトをご提案します。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
                                 <img src="img/comprehensible-img.jpg" class="service-img comprehend-img"></p>
                                 <p class="sb-ttl comprehend-ttl">丁寧かつ迅速</p>
-                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。また、お客様のご要望にも柔軟に対応いたします。お見積り、納期のご相談はお気軽にどうぞ。</p>
+                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。また、お客様のご要望に柔軟に対応いたします。お見積り、納期のご相談はお気軽にどうぞ。</p>
                             </div>
                             <div class="service-box">
                                 <p class="service-img-bg">
                                 <img src="img/support-image.jpg" class="service-img support-img"></p>
-                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>                       <p class="sb-txt sb-txt-1">納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>                       <p class="sb-txt sb-txt-1">サイトの運営管理について、納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
                             </div>
                         </div>
                     </div>
