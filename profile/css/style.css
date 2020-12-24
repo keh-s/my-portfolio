@@ -286,6 +286,17 @@ article {
   left: 130px;
 }
 
+.career-wrapper::after {
+  /*background-colorの境界をぼかす設定*/
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255);
+}
+
 .career-ttl {
   font-family: 游ゴシック体;
   font-size: 2.4rem;
@@ -377,6 +388,17 @@ article {
   position: absolute;
   top: 800px;
   left: -40px;
+}
+
+.service-wrapper::after {
+  /*background-colorの境界をぼかす設定*/
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255);
 }
 
 .service-ttl {
