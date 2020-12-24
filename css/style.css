@@ -239,6 +239,7 @@ article {
     line-height: 30px; /* heightと同じ50pxではなく、borderまでの30pxで上下中央にそろった*/
     padding: 10px 8px;
     letter-spacing: 2px;
+    z-index: 2;
   }
 
   .aside-text-responsive {
