@@ -426,7 +426,8 @@ article {
   background-color: #fff;
   opacity: 1;
   margin-top: 40px;
-  position: relative;
+  padding:25px;
+  /* position: relative; 何のため？*/
   box-shadow: 0 0 8px gray;
 }
 
@@ -458,7 +459,7 @@ article {
 }
 
 .sb-txt {
-  width: 240px;
+  /* width: 240px; */
   padding:15px;
 }
 
@@ -531,7 +532,7 @@ article {
   }
 
   .sb-txt {
-    width: 200px;
+    /* width: 200px; */
     font-size: 1.5rem;
   }
 }
