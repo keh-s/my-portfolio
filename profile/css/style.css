@@ -92,10 +92,10 @@ aside {
 /*----------------------アーティクルパート------------------*/
 
 article {
-  border-top: 1px;
+  /* border-top: 1px;
   border-bottom: 1px;
-  border-left: 1px;
-  position: relative;
+  border-left: 1px; 何の効果？*/
+  /*position: relative; article-wrapperに移動*/
 }
 
 .article-wrapper {
@@ -105,6 +105,7 @@ article {
   padding-top: 40px;
   margin-left: 20px;
   margin-right: 30px;
+  position: relative; 
 }
 
 .article-wrapper::after {
@@ -382,7 +383,7 @@ article {
   width: 980px;
   height: auto;
   background-color: rgba(235, 178, 192, 0.9);
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
   position: absolute;
@@ -418,7 +419,7 @@ article {
 }
 
 .service-box {
-  width: 270px;
+  width: 240px;
   height: 370px;
   /* border: 1px solid #000; */
   /* background-color: rgb(101, 191, 125, 0.3); */
