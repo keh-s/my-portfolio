@@ -289,6 +289,7 @@ article {
   position:relative;
   z-index:3;
   padding-top:30px;
+  padding-left:20px;
 }
 
 .career-wrapper::after {
@@ -506,7 +507,7 @@ article {
 @media screen and (max-width: 768px) {
   .service-wrapper {
     width: 92%;
-    top: 750px;
+    /* top: 750px; */
     left: 420px;
     transform: translate(-50%);
   }
@@ -540,13 +541,13 @@ article {
   }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .service-wrapper {
     top: 820px;
   }
-}
+} */
 
-@media screen and (max-width: 631px) {
+/* @media screen and (max-width: 631px) {
   .service-wrapper {
     top: 840px;
   }
@@ -556,7 +557,7 @@ article {
   .service-wrapper {
     top: 1000px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .service-wrapper {
