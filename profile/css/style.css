@@ -512,7 +512,6 @@ article {
 
   .service-box {
     width: 200px;
-    /* height: 329px; */
     margin: 40px 20px 0;
     padding-bottom: 30px;
     position: relative;
@@ -531,7 +530,6 @@ article {
   }
 
   .sb-txt {
-    /* width: 200px; */
     font-size: 1.5rem;
     padding-top:15px;
   }
