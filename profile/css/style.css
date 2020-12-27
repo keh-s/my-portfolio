@@ -379,7 +379,7 @@ article {
 /* -----------サービスパート--------------- */
 
 .service-wrapper {
-  width: 980px;
+  width: 100%;
   height: auto;
   background-color: rgba(235, 178, 192, 0.9);
   padding-top: 50px;
@@ -462,10 +462,10 @@ article {
   padding-top:15px;
 }
 
-@media screen and (max-width: 1165px) {
+/* @media screen and (max-width: 1165px) {
   .service-wrapper {
     width: 800px;
-  }
+  } */
 
   .service-box-wrapper {
     flex-wrap: wrap;
