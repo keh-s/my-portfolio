@@ -383,7 +383,7 @@ article {
   width: 100%;
   height: auto;
   background-color: rgba(235, 178, 192, 0.9);
-  padding-top: 50px 30px;
+  padding: 50px 30px;
   position: absolute;
   top: 800px;
   left: -40px;
@@ -407,7 +407,7 @@ article {
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   line-height: 30px;
-  padding-top:50px;
+  /* padding-top:50px; */
   margin-left: 32px;
   text-align: left;
 }
