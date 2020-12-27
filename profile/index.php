@@ -67,8 +67,7 @@
                                     <p class="cl-text">本業の傍ら、フリーランスでweb制作を請け負う</p>
                             </li>
                         </ul>
-                    </div>
-                    <div class="service-wrapper">
+                        <div class="service-wrapper">
                         <p class="service-ttl">Service</p>
                         <div class="service-box-wrapper">
                             <div class="service-box">
@@ -89,6 +88,28 @@
                             </div>
                         </div>
                     </div>
+                    <!-- </div> -->
+                    <!-- <div class="service-wrapper">
+                        <p class="service-ttl">Service</p>
+                        <div class="service-box-wrapper">
+                            <div class="service-box">
+                                <img src="img/pc-image.jpg" class="service-img">
+                                <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
+                                <p class="sb-txt">レスポンシブ（スマホ閲覧⇔PC閲覧）にも対応し、閲覧者の目線を考えた、分かりやすく使いやすいサイトをご提案します。</p>
+                            </div>
+                            <div class="service-box">
+                                <p class="service-img-bg">
+                                <img src="img/comprehensible-img.jpg" class="service-img comprehend-img"></p>
+                                <p class="sb-ttl comprehend-ttl">丁寧かつ迅速</p>
+                                <p class="sb-txt">丁寧な説明と素早い対応で、お客様に安心していただきながら制作を進めます。また、お客様のご要望に柔軟に対応いたします。お見積り、納期のご相談はお気軽にどうぞ。</p>
+                            </div>
+                            <div class="service-box">
+                                <p class="service-img-bg">
+                                <img src="img/support-image.jpg" class="service-img support-img"></p>
+                                <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>                       <p class="sb-txt sb-txt-1">サイトの運営管理について、納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </article>
         </div>

@@ -285,6 +285,7 @@ article {
   position: absolute;
   top: 380px;
   left: 130px;
+  position:relative;
 }
 
 .career-wrapper::after {
