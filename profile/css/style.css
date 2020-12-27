@@ -512,7 +512,7 @@ article {
 
   .service-box {
     width: 200px;
-    height: 329px;
+    /* height: 329px; */
     margin: 40px 20px 0;
     padding-bottom: 30px;
     position: relative;
