@@ -388,8 +388,8 @@ article {
   padding: 50px 30px;
   position: absolute;
   /* top: 400px; */
-  left: 200px;
-  z-index:6;
+  left: 150px;
+  z-index:3;
 }
 
 .service-wrapper::after {
