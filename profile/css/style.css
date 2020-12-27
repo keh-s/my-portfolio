@@ -115,7 +115,7 @@ article {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255,0.1);
+  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255);
 }
 
 .main-nav-wrapper {
@@ -288,6 +288,7 @@ article {
   left: 130px;
   position:relative;
   z-index:3;
+  padding-top:30px;
 }
 
 .career-wrapper::after {
@@ -298,7 +299,7 @@ article {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255,0.1);
+  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255);
 }
 
 .career-ttl {
@@ -308,6 +309,7 @@ article {
   color: rgb(51, 51, 51);
   letter-spacing: 1px;
   line-height: 60px;
+  padding-top:20px;
   margin-left: 22px;
 }
 
@@ -401,7 +403,7 @@ article {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255,0.1);
+  box-shadow: inset 0 0 15px 15px rgb(255, 255, 255);
 }
 
 .service-ttl {
