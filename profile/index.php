@@ -68,8 +68,8 @@
                             </li>
                         </ul>
                         <div class="service-wrapper">
-                        <p class="service-ttl">Service</p>
-                        <div class="service-box-wrapper">
+                         <p class="service-ttl">Service</p>
+                         <div class="service-box-wrapper">
                             <div class="service-box">
                                 <img src="img/pc-image.jpg" class="service-img">
                                 <p class="sb-ttl">分かりやすく<br>あたらしいデザイン</p>
@@ -86,6 +86,7 @@
                                 <img src="img/support-image.jpg" class="service-img support-img"></p>
                                 <p class="sb-ttl support-ttl">納品後もあんしんサポート</p>                       <p class="sb-txt sb-txt-1">サイトの運営管理について、納品後もご要望を頂ければ継続してサポートいたします。インターネットに詳しくないお客様でも丁寧にアドバイスいたします。</p>
                             </div>
+                         </div>
                         </div>
                     </div>
                     <!-- </div> -->
