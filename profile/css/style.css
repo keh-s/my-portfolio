@@ -407,6 +407,7 @@ article {
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   line-height: 30px;
+  padding-top:50px;
   margin-left: 32px;
   text-align: left;
 }
@@ -468,7 +469,7 @@ article {
 
   .service-box-wrapper {
     flex-wrap: wrap;
-
+    width:100%;
   }
 }
 
