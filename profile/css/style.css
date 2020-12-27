@@ -282,11 +282,12 @@ article {
 .career-wrapper {
   width: 860px;
   height: 480px;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
   /* top: 380px; */
   left: 130px;
   position:relative;
+  z-index:3;
 }
 
 .career-wrapper::after {
@@ -389,7 +390,7 @@ article {
   position: absolute;
   /* top: 400px; */
   left: 100px;
-  z-index:3;
+  z-index:2;
 }
 
 .service-wrapper::after {
