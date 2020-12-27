@@ -511,7 +511,7 @@ article {
 
   .service-box {
     width: 200px;
-    /* margin: 40px 20px 0; 仮 */
+    margin: 40px 20px 0;
     padding-bottom: 30px;
     position: relative;
   }
