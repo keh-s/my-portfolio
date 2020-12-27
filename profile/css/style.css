@@ -388,9 +388,9 @@ article {
   background-color: rgba(235, 178, 192, 0.9);
   padding: 50px 30px;
   position: absolute;
-  /* top: 400px; */
+  top: 400px;
   left: 100px;
-  z-index:2;
+  z-index:4;
 }
 
 .service-wrapper::after {
