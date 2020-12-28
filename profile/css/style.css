@@ -284,7 +284,6 @@ article {
   height: 560px;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
-  /* top: 380px; */
   left: 130px;
   position:relative;
   z-index:3;
@@ -310,8 +309,7 @@ article {
   color: rgb(51, 51, 51);
   letter-spacing: 1px;
   line-height: 60px;
-  padding-top:20px;
-  margin-left: 22px;
+  margin-left: 32px;
 }
 
 .career-list-wrapper {
@@ -414,7 +412,6 @@ article {
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   line-height: 30px;
-  /* padding-top:50px; */
   margin-left: 32px;
   text-align: left;
 }
@@ -422,6 +419,7 @@ article {
 .service-box-wrapper {
   display: flex;
   justify-content: space-around;
+  margin-top:40px;
 }
 
 .service-box {
@@ -432,8 +430,7 @@ article {
   text-align: center;
   background-color: #fff;
   opacity: 1;
-  margin-top: 40px;
-  padding:25px;
+  padding:8px 20px 16px;
   /* position: relative; 何のため？*/
   box-shadow: 0 0 8px gray;
 }
