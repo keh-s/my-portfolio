@@ -238,9 +238,10 @@ article {
   color: rgb(51, 51, 51);
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .about-wrapper {
     height: auto;
+    width:630px;
     margin: 90px 50px 50px 50px;
   }
 
@@ -249,7 +250,7 @@ article {
   }
 
   .profile-text p {
-    width: 90%;
+    width: 60%; /* 90%→60%*/
     margin-top: 10px;
     margin-left: 40px;
     letter-spacing: 1.7px;
@@ -487,7 +488,7 @@ article {
 
 @media screen and (min-width: 1024px) {
   .service-wrapper {
-    left: 100px;
+    left: 140px;
   }
 }
 
