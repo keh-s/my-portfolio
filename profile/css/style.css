@@ -280,16 +280,16 @@ article {
 /* 経歴パート */
 
 .career-wrapper {
-  width: 860px;
-  height: 480px;
+  width: 640px;
+  height: 560px;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
   /* top: 380px; */
   left: 130px;
   position:relative;
   z-index:3;
-  padding-top:30px;
-  padding-left:20px;
+  padding-top:48px;
+  padding-left:24px;
 }
 
 .career-wrapper::after {
@@ -386,12 +386,12 @@ article {
 /* -----------サービスパート--------------- */
 
 .service-wrapper {
-  width: 100%;
+  width: 910px; /* 最初100%にしていたが、親のcareer-wrapperに引っ張られるので固定 */
   height: auto;
   background-color: rgba(235, 178, 192, 0.9);
-  padding: 50px 30px;
+  padding: 48px 24px;
   position: absolute;
-  top: 400px;
+  top: 456px;
   left: 100px;
   z-index:4;
 }
@@ -561,7 +561,7 @@ article {
 
 @media screen and (max-width: 320px) {
   .service-wrapper {
-    top: 1380px;/*1180→1380*/
+    /*top: 650px;  1180→1380→650*/
     left: 140px;/*190→140*/
   }
 }
