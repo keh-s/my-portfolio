@@ -333,31 +333,33 @@ article {
 
 @media screen and (max-width: 1020px) {
   .career-wrapper {
-    width: 610px;
-    height: auto;
+    /* height: auto; */
     padding-bottom: 70px;
     position: absolute;
-    top: 90%;
-    left: -80px;
+    /* top: 90%; 必要なしか*/
+    /* left: -80px; 768のブレイクポイントまでそのままで良いか*/
   }
 
   .career-ttl {
-    padding-left: 20px;
-    text-align: left;
+    /* text-align: left; 不要？*/
   }
 
-  .cl-text {
-    text-align: left;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .career-wrapper {
-    left: -25px;
+    left:0;
+    width:auto;
+    top:640px;
   }
 
   .career-ttl {
-    padding-left: 48px;
+    /* padding-left: 48px; */
+    margin-left:0;
+    text-align: left;
+  }
+  .cl-text {
+    text-align: left;
   }
 }
 
