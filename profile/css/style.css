@@ -349,7 +349,7 @@ article {
 @media screen and (max-width: 768px) {
   .career-wrapper {
     left:0;
-    width:auto;
+    width:536px;/*auto→536px*/
     top:640px;
   }
 
@@ -366,6 +366,11 @@ article {
 .career-list-wrapper {
   margin: 30px 15px 0;
 }
+
+@media screen and (max-width: 400px) {
+  .career-wrapper {
+    height: 720px;
+  }
 
 @media screen and (max-width: 360px) {
   .career-wrapper {
@@ -507,7 +512,7 @@ article {
   .service-wrapper {
     width: 100%;
     top: 580px;
-    left: 270px;
+    left: 400px; /*270px→400px*/
     transform: translate(-50%);
   }
 
