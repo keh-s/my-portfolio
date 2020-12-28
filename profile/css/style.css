@@ -166,9 +166,10 @@ article {
   transition: 0.6s;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .article-wrapper {
-    height: auto;
+    width:76%;
+    height: 600px;
     padding-top: 10px;
     padding-bottom: 45px;
     margin-top: 20px;
@@ -242,7 +243,7 @@ article {
   .about-wrapper {
     height: auto;
     width:630px;
-    margin: 90px 50px 50px 50px;
+    margin: 100px 50px 50px 50px;
   }
 
   .profile-img {
@@ -250,7 +251,7 @@ article {
   }
 
   .profile-text p {
-    width: 60%; /* 90%→60%*/
+    width: 74%; /* 90%→60%→100%→74%*/
     margin-top: 10px;
     margin-left: 40px;
     letter-spacing: 1.7px;
