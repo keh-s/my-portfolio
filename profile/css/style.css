@@ -337,7 +337,7 @@ article {
     padding-bottom: 70px;
     position: absolute;
     /* top: 90%; 必要なしか*/
-    /* left: -80px; 768のブレイクポイントまでそのままで良いか*/
+    left:360px;
   }
 
   .career-ttl {
@@ -369,7 +369,7 @@ article {
 
 @media screen and (max-width: 400px) {
   .career-wrapper {
-    height: 720px;
+    top: 720px;
   }
 }
 
@@ -485,7 +485,7 @@ article {
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   .service-wrapper {
     left: 100px;
   }
