@@ -218,7 +218,7 @@ article {
 
 .about-wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin: 50px;
   padding: 30px;
 }
@@ -231,7 +231,7 @@ article {
 }
 
 .profile-text p {
-  width: 420px;
+  width: 560px;
   text-align: left;
   margin-left: 40px;
   letter-spacing: 1.7px;
