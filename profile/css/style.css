@@ -505,9 +505,9 @@ article {
 
 @media screen and (max-width: 768px) {
   .service-wrapper {
-    width: 92%;
-    /* top: 750px; */
-    left: 420px;
+    width: 100%;
+    top: 580px;
+    left: 270px;
     transform: translate(-50%);
   }
 
