@@ -284,7 +284,7 @@ article {
   height: 560px;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
-  left: 130px;
+  left: 420px;
   position:relative;
   z-index:3;
   padding-top:48px;
@@ -390,7 +390,7 @@ article {
   padding: 48px 24px;
   position: absolute;
   top: 456px;
-  left: 100px;
+  left: -560px;
   z-index:4;
 }
 
