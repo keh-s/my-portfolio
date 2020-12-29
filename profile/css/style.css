@@ -220,7 +220,7 @@ article {
 .about-wrapper {
   display: flex;
   align-items: center;
-  margin: 50px;
+  margin: 50px 50px 120px; /*bottom設定で下にあるcareer-wrapperのtopの開始位置を調整（bottomの終が次の要素のtopの始になる模様）*/
   padding: 30px;
 }
 
@@ -286,7 +286,7 @@ article {
   height: auto;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
-  left: 240px;
+  left: -240px;
   position:relative;
   z-index:3;
   padding:48px 24px 100px;
