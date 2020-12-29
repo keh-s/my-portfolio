@@ -283,14 +283,13 @@ article {
 
 .career-wrapper {
   width: 640px;
-  height: 560px;
+  height: auto;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
-  left: 420px;
+  left: -240px;
   position:relative;
   z-index:3;
-  padding-top:48px;
-  padding-left:24px;
+  padding:48px 24px 100px;
 }
 
 .career-wrapper::after {
@@ -333,7 +332,7 @@ article {
   line-height: 30px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .career-wrapper {
     /* height: auto; */
     padding-bottom: 70px;
@@ -397,10 +396,10 @@ article {
   width: 910px; /* 最初100%にしていたが、親のcareer-wrapperに引っ張られるので固定 */
   height: auto;
   background-color: rgba(235, 178, 192, 0.9);
-  padding: 48px 24px;
+  padding: 48px 24px 104px;
   position: absolute;
   top: 456px;
-  left: -560px;
+  left: 240px;
   z-index:4;
 }
 
