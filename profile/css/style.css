@@ -282,7 +282,7 @@ article {
 
 @media screen and (max-width: 500px) {
   .profile-text p {
-    font-size:1.8rem;
+    font-size:2rem;
   }
   }
 
@@ -377,7 +377,7 @@ article {
 
 @media screen and (max-width: 500px) {
 .career-list p {
-  font-size:1.8rem;
+  font-size:2rem;
 }
 }
 
@@ -537,7 +537,7 @@ article {
   }
 
   .service-box {
-    width: 240px;
+    width: 400px;
     margin: 40px 10px 0;
     padding-bottom: 30px;
     position: relative;
