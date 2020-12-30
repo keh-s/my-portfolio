@@ -368,13 +368,13 @@ article {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .career-wrapper {
     top: 720px;
   }
-}
+} */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
   .career-wrapper {
     width: 98%;
   }
@@ -388,7 +388,7 @@ article {
   .cl-text {
     width: 200px;
   }
-}
+} */
 
 /* -----------サービスパート--------------- */
 
@@ -568,8 +568,7 @@ article {
 @media screen and (max-width: 320px) {
   .service-wrapper {
     /*top: 650px;  1180→1380→650*/
-    left: 140px;/*190→140*/
-  }
+    /*left: 140px; 190→140→削除*/
 }
 
 /* -----------------ロゴ---------------- */
