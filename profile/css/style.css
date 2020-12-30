@@ -270,7 +270,6 @@ article {
     width: 90%;
     margin-top: 1.2rem;
     margin-bottom:2rem;
-    font-size: 2rem;
   }
 
   .profile-img {
@@ -370,10 +369,6 @@ article {
   .cl-text {
     text-align: left;
   }
-
-  .career-list p {
-     font-size:1.8rem;
-}
 
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
@@ -533,7 +528,8 @@ article {
     width: 100%;
     top: 580px;
     /*left: 400px; 270px→400px→削除*/
-    transform: translate(-50%);/* ?なんの効果? */
+    /* transform: translate(-50%); なんの効果? */
+    left:0;/*left 240pxの打消し*/
   }
 
   .service-box-wrapper {
