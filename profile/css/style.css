@@ -286,7 +286,7 @@ article {
   height: auto;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
-  left: -240px;
+  left: -180px;
   position:relative;
   z-index:3;
   padding:48px 24px 100px;
@@ -314,7 +314,7 @@ article {
 }
 
 .career-list-wrapper {
-  margin: 30px 50px 0;
+  margin: 30px 50px 40px;
 }
 
 .career-list {
@@ -338,7 +338,7 @@ article {
     padding-bottom: 70px;
     position: absolute;
     /* top: 90%; 必要なしか*/
-    left:360px;
+    /* left:360px; */
   }
 
   .career-ttl {
@@ -365,7 +365,7 @@ article {
 }
 
 .career-list-wrapper {
-  margin: 30px 15px 0;
+  margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
 }
 
 @media screen and (max-width: 400px) {
