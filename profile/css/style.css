@@ -270,6 +270,10 @@ article {
     width: 90%;
     margin-top: 1.2rem;
     margin-bottom:2rem;
+<<<<<<< HEAD
+=======
+    font-size: 2rem;
+>>>>>>> 7a5283a8eb61227edf8993910d9c83799c79c29f
   }
 
   .profile-img {
@@ -369,17 +373,27 @@ article {
   .cl-text {
     text-align: left;
   }
+<<<<<<< HEAD
+=======
+
+  .career-list p {
+     font-size:1.8rem;
+}
+>>>>>>> 7a5283a8eb61227edf8993910d9c83799c79c29f
 
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
 }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 500px) {
 .career-list p {
   font-size:1.8rem;
 }
 }
 
+=======
+>>>>>>> 7a5283a8eb61227edf8993910d9c83799c79c29f
 /* @media screen and (max-width: 400px) {
   .career-wrapper {
     top: 720px;
