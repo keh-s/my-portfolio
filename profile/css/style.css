@@ -53,7 +53,7 @@ body {
 
   .main-ttl {
     margin-top: 40px;
-    width: 300px; /*320→300に変更したよ*/
+    /*width: 300px; 320→300→削除*/
     font-size: 5rem;
   }
 }
@@ -263,12 +263,13 @@ article {
     flex-direction: column;
     justify-content: center;
     margin-left: 0;
+    padding-bottom:50px;
   }
 
   .profile-text p {
     width: 90%;
     margin-top: 1.2rem;
-    font-size: 1.5rem;
+    margin-bottom:2rem;
   }
 
   .profile-img {
@@ -278,6 +279,12 @@ article {
     height: 120px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .profile-text p {
+    font-size:1.8rem;
+  }
+  }
 
 /* 経歴パート */
 
@@ -362,10 +369,15 @@ article {
   .cl-text {
     text-align: left;
   }
-}
 
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
+}
+}
+@media screen and (max-width: 500px) {
+.career-list p {
+  font-size:1.8rem;
+}
 }
 
 /* @media screen and (max-width: 400px) {
@@ -514,8 +526,8 @@ article {
   .service-wrapper {
     width: 100%;
     top: 580px;
-    left: 400px; /*270px→400px*/
-    transform: translate(-50%);
+    /*left: 400px; 270px→400px→削除*/
+    transform: translate(-50%);/* ?なんの効果? */
   }
 
   .service-box-wrapper {
