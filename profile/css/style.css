@@ -270,6 +270,7 @@ article {
     width: 90%;
     margin-top: 1.2rem;
     margin-bottom:2rem;
+    font-size: 2rem;
   }
 
   .profile-img {
@@ -370,10 +371,15 @@ article {
     text-align: left;
   }
 
+  .career-list p {
+     font-size:1.8rem;
+}
+
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
 }
 }
+
 @media screen and (max-width: 500px) {
 .career-list p {
   font-size:1.8rem;
