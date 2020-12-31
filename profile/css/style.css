@@ -83,7 +83,7 @@ aside {
   background-color: rgba(255, 255, 255, 0.95); /*透過にした*/
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   aside {
     display: none;
   }
@@ -184,7 +184,7 @@ article {
 
 @media screen and (max-width: 768px) {
   .article-wrapper {
-    width: 80%;
+    width: 86%;
     padding-bottom: 30px;
     margin-left: 40px;
   }
@@ -357,7 +357,7 @@ article {
 @media screen and (max-width: 768px) {
   .career-wrapper {
     left:0;
-    width:536px;/*auto→536px*/
+    width:100%;/*auto→536px→100％*/
     top:640px;
   }
 
