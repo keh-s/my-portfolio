@@ -446,9 +446,6 @@ article {
 
 .service-box {
   width: 240px;
-  /* height: 370px; */
-  /* border: 1px solid #000; */
-  /* background-color: rgb(101, 191, 125, 0.3); */
   text-align: center;
   background-color: #fff;
   opacity: 1;
@@ -488,20 +485,11 @@ article {
   padding-top:15px;
 }
 
-/* @media screen and (max-width: 1165px) {
-  .service-wrapper {
-    width: 800px;
-  } */
 
-  .service-box-wrapper {
-    flex-wrap: wrap;
-    width:100%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .service-wrapper {
     left: 140px;
+    width:100%;
   }
 }
 
