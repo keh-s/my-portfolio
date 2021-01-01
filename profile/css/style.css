@@ -122,7 +122,7 @@ article {
   display: flex;
   position: absolute;
   top: 40px;
-  left: -170px; /* ???  */
+  left: -190px;
   z-index:5;
 }
 
@@ -178,7 +178,7 @@ article {
 
   .main-nav-wrapper {
     display: flex;
-    left: -25px;
+    left: -40px; /* -25→-40に変更 */
   }
 }
 
@@ -280,12 +280,6 @@ article {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .profile-text p {
-    font-size:2rem;
-  }
-  }
-
 /* 経歴パート */
 
 .career-wrapper {
@@ -372,12 +366,6 @@ article {
 
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
-}
-}
-
-@media screen and (max-width: 500px) {
-.career-list p {
-  font-size:2rem;
 }
 }
 

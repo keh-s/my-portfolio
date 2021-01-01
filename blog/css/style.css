@@ -132,6 +132,7 @@ article {
   position: absolute;
   top: 40px;
   left: -190px;
+  z-index:5;
 }
 
 .navItem {
@@ -189,7 +190,7 @@ article {
 
 @media screen and (max-width: 768px) {
   .article-wrapper {
-    width: 94%;
+    /* width: 94%; */
     height: auto;
     padding-top: 10px;
     padding-bottom: 45px;

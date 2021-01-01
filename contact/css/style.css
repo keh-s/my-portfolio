@@ -129,6 +129,7 @@ article {
   position: absolute;
   top: 40px;
   left: -190px;
+  z-index:5;
 }
 
 .navItem {
