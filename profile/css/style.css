@@ -178,7 +178,7 @@ article {
 
   .main-nav-wrapper {
     display: flex;
-    left: -40px; /* -25→-40に変更 */
+    left: -210px; /* -25→-40に変更 */
   }
 }
 
@@ -187,10 +187,12 @@ article {
     width: 86%;
     padding-bottom: 30px;
     margin-left: 40px;
+    left:-40px;
   }
 
   .main-nav-wrapper {
     flex-wrap: wrap;
+    left: -40px; /* -25→-40に変更 */
   }
 
   h1 {
