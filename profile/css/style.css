@@ -491,25 +491,16 @@ article {
     left: 140px;
     width:100%;
   }
-}
 
-/* @media screen and (max-width: 952px) {
-  .service-wrapper {
-    top: 740px;
+  .service-box-wrapper{
+  display:block;
+  }
+
+  .service-box{
+    text-align:center;
   }
 }
 
-@media screen and (max-width: 873px) {
-  .service-wrapper {
-    top: 760px;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .service-wrapper {
-    top: 780px;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   .service-wrapper {
@@ -521,7 +512,8 @@ article {
   }
 
   .service-box-wrapper {
-    align-items: center;
+    /* align-items: center; */
+    display:block;
   }
 
   .service-box {
