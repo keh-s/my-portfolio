@@ -222,7 +222,7 @@ article {
   .article-wrapper {
     left:20px;
   }
-
+}
 
 /*------------About（プロフィールパート）---------------*/
 
@@ -294,6 +294,7 @@ article {
     /* margin-left: 20px;
     margin-right:20px; */
   }
+}
 
 /* 経歴パート */
 
@@ -565,6 +566,7 @@ article {
   .service-wrapper {
     /*top: 650px;  1180→1380→650*/
     /*left: 140px; 190→140→削除*/
+}
 }
 
 /* -----------------ロゴ---------------- */
