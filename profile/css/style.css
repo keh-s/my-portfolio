@@ -169,6 +169,7 @@ article {
 @media screen and (max-width: 1024px) {
   .article-wrapper {
     /* width:86%; */
+    /* width:86%; */
     height: 900px;
     padding-top: 10px;
     padding-bottom: 45px;
