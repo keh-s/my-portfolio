@@ -169,7 +169,6 @@ article {
 @media screen and (max-width: 1024px) {
   .article-wrapper {
     /* width:86%; */
-    /* width:86%; */
     height: 900px;
     padding-top: 10px;
     padding-bottom: 45px;
@@ -185,10 +184,11 @@ article {
 
 @media screen and (max-width: 768px) {
   .article-wrapper {
-    width: 86%;
+    width: 94%; /*86%→90%→94%*/
     padding-bottom: 30px;
     margin-left: 40px;
     left:0px;
+    height:auto;
   }
 
   .main-nav-wrapper {
@@ -217,6 +217,12 @@ article {
     z-index: 2;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .article-wrapper {
+    left:20px;
+  }
+
 
 /*------------About（プロフィールパート）---------------*/
 
@@ -261,7 +267,7 @@ article {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-wrapper {
     flex-direction: column;
     justify-content: center;
@@ -270,7 +276,7 @@ article {
   }
 
   .profile-text p {
-    width: 90%;
+    width: 96%;
     margin-top: 1.2rem;
     margin-bottom:2rem;
   }
@@ -282,6 +288,12 @@ article {
     height: 120px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about-wrapper {
+    /* margin-left: 20px;
+    margin-right:20px; */
+  }
 
 /* 経歴パート */
 
@@ -355,7 +367,7 @@ article {
   .career-wrapper {
     left:0;
     width:100%;/*auto→536px→100％*/
-    top:640px;
+    top:740px;
   }
 
   .career-ttl {
@@ -541,12 +553,13 @@ article {
     top: 840px;
   }
 }
+*/
 
-@media screen and (max-width: 549px) {
-  .service-wrapper {
-    top: 1000px;
+@media screen and (max-width: 558px) {
+  .service-box {
+    width:90%;
   }
-} */
+} 
 
 @media screen and (max-width: 320px) {
   .service-wrapper {
