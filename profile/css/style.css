@@ -168,8 +168,8 @@ article {
 
 @media screen and (max-width: 1024px) {
   .article-wrapper {
-    width:76%;
-    height: 600px;
+    width:86%;
+    height: 900px;
     padding-top: 10px;
     padding-bottom: 45px;
     margin-top: 20px;
@@ -187,7 +187,7 @@ article {
     width: 86%;
     padding-bottom: 30px;
     margin-left: 40px;
-    left:-40px;
+    left:0px;
   }
 
   .main-nav-wrapper {
@@ -244,7 +244,7 @@ article {
 @media screen and (max-width: 1024px) {
   .about-wrapper {
     height: auto;
-    width:630px;
+    width:90%; /*630pxを90%表示すればテキスト折り返しになる？けど、上下のpositionが可変になって合わなくなる*/
     margin: 100px 50px 50px 50px;
   }
 
@@ -285,7 +285,7 @@ article {
 /* 経歴パート */
 
 .career-wrapper {
-  width: 640px;
+  width: 640px; /*640pxを%で表示した方がよい？*/
   height: auto;
   background-color: rgba(247, 181, 181, 0.9);
   position: absolute;
