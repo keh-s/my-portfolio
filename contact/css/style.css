@@ -58,9 +58,9 @@ body {
     font-size: 5rem;
   }
 
-  .main-part-wrapper {
+  /* .main-part-wrapper {
     margin-top: 35px;
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
