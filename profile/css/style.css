@@ -386,9 +386,9 @@ article {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 350px) {
   .career-wrapper {
-    top:840px;
+    top: 880px;
   }
 }
 
@@ -561,10 +561,9 @@ article {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .service-wrapper {
-    /*top: 650px;  1180→1380→650*/
-    /*left: 140px; 190→140→削除*/
+    top: 680px;
   }
 }
 
