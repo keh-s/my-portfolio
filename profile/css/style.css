@@ -58,6 +58,14 @@ body {
   }
 }
 
+@media screen and (max-width: 320px){
+.main-ttl {
+    font-size: 4rem;
+    margin-top: 40px;
+    width: 240px;
+}
+}
+
 /*--------------------アサイドパート------------------*/
 
 aside {
