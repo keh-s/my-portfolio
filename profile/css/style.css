@@ -293,6 +293,7 @@ article {
   .about-wrapper {
     /* margin-left: 20px;
     margin-right:20px; */
+    padding-bottom:0;
   }
 }
 
@@ -341,11 +342,11 @@ article {
 }
 
 .cl-year {
-  width: 70px;
+  width: 80px;
 }
 
 .career-list p {
-  margin: 0 15px;
+  margin-left: 15px;
   line-height: 30px;
 }
 
@@ -378,18 +379,13 @@ article {
   }
   .cl-text {
     text-align: left;
+    width:auto;
   }
 
 .career-list-wrapper {
   margin: 30px 15px 40px; /*service-wrapperのtop合わせのためにbottom設定（career-wrapperのtop設定はaboutのmargin-bottomで調整）*/
 }
 }
-
-/* @media screen and (max-width: 400px) {
-  .career-wrapper {
-    top: 720px;
-  }
-} */
 
 /* @media screen and (max-width: 360px) {
   .career-wrapper {
