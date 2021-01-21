@@ -50,13 +50,9 @@
                                     <p class="cl-text">4年生大学 外国語学部卒業</p>
                             </li>
                             <li class="career-list">
-                                    <p class="cl-year">2003年</p>
-                                    <p class="cl-text">郵政公社に入社<br>郵便、貯金、保険の業務に従事</p>
-                            </li>
-                            <li class="career-list">
                                     <p class="cl-year">2004年</p>
-                                    <p class="cl-text">同社を退社し、地方公務員に<br>
-                                    区画整理事業、徴税事務などに従事</p>
+                                    <p class="cl-text">地方公務員として地元市役所に入庁<br>
+                                    区画整理事業、徴税事務ほか多岐に渡る業務に従事</p>
                             </li>
                             <li class="career-list">
                                     <p class="cl-year">2019年</p>
